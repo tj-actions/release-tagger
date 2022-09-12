@@ -1,0 +1,17 @@
+name: Action release tagger
+description: Automatically manage action releases
+author: tj-actions
+inputs:
+  token:
+    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+    required: true
+    default: ${{ github.token }}
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.token }}
+branding:
+  icon: tag
+  color: white
