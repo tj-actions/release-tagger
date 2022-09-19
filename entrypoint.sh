@@ -7,13 +7,10 @@ if [[ $GITHUB_REF != "refs/tags/"* ]]; then
   exit 0;
 fi
 
-git fetch origin +refs/tags/*:refs/tags/*
+git fetch "$INPUTS_REMOTE" +refs/tags/*:refs/tags/*
 
 NEW_TAG=${GITHUB_REF/refs\/tags\//}
 MAJOR_VERSION=$(echo "$NEW_TAG" | cut -d. -f1)
-
-git tag -f "$MAJOR_VERSION" "$NEW_TAG"
-git push -f "$INPUTS_REMOTE" "$MAJOR_VERSION"
 
 for tag in $(git tag -l "$MAJOR_VERSION.*"); do
   echo "Adding $tag to release notes"
@@ -25,9 +22,9 @@ for tag in $(git tag -l "$MAJOR_VERSION.*"); do
 done
 
 if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
-  gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
+  gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --target "$NEW_TAG"
 else
-  gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
+  gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --target "$NEW_TAG"
 fi
 
 echo "::set-output name=major_version::$MAJOR_VERSION"
