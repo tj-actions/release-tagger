@@ -2,6 +2,10 @@ name: Action release tagger
 description: Automatically manage action releases
 author: tj-actions
 inputs:
+  token:
+    description: '[GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) or a repo scoped [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)'
+    required: true
+    default: ${{ github.token }}
   remote:
     description: 'Remote repository to push to'
     required: true
@@ -27,8 +31,10 @@ runs:
       shell: bash
       env:
         GITHUB_REF: ${{ github.ref }}
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_EVENT_NAME: ${{ github.event_name }}
         INPUTS_REMOTE: ${{ inputs.remote }}
+        INPUTS_RELEASE_NOTES_FILE: ${{ inputs.release_notes_file }}
 
 branding:
   icon: tag
