@@ -1,17 +1,18 @@
 # Changelog
 
-## [Unreleased](https://github.com/tj-actions/release-tagger/tree/HEAD)
+## [v1](https://github.com/tj-actions/release-tagger/tree/v1) (2022-09-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1...HEAD)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.0...v1)
+
+## [v1.1.0](https://github.com/tj-actions/release-tagger/tree/v1.1.0) (2022-09-19)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.0.2...v1.1.0)
 
 **Merged pull requests:**
 
+- Upgraded to v1.0.2 [\#13](https://github.com/tj-actions/release-tagger/pull/13) ([jackton1](https://github.com/jackton1))
 - Updated README.md [\#12](https://github.com/tj-actions/release-tagger/pull/12) ([jackton1](https://github.com/jackton1))
 - Upgraded to v1.0.1 [\#11](https://github.com/tj-actions/release-tagger/pull/11) ([jackton1](https://github.com/jackton1))
-
-## [v1](https://github.com/tj-actions/release-tagger/tree/v1) (2022-09-19)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.0.2...v1)
 
 ## [v1.0.2](https://github.com/tj-actions/release-tagger/tree/v1.0.2) (2022-09-19)
 
