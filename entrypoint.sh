@@ -3,7 +3,7 @@
 set -e
 
 if [[ $GITHUB_REF != "refs/tags/"* ]]; then
-  echo "::warning::Skipping: This should only run on tags push or on release instead of '$GITHUB_EVENT_NAME'.";
+  echo "::warning::Skipping: This should only run on tags push or on release.";
   exit 0;
 fi
 
