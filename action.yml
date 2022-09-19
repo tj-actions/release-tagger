@@ -31,7 +31,7 @@ runs:
       shell: bash
       env:
         GITHUB_REF: ${{ github.ref }}
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ inputs.token }}
         GITHUB_EVENT_NAME: ${{ github.event_name }}
         INPUTS_REMOTE: ${{ inputs.remote }}
         INPUTS_RELEASE_NOTES_FILE: ${{ inputs.release_notes_file }}
