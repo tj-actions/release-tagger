@@ -11,6 +11,10 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
+      - name: Run release-tagger
+        uses: tj-actions/release-tagger@v2
+
       - name: Sync release version
         uses: tj-actions/sync-release-version@v12.2
         id: sync-release-version
@@ -18,10 +22,12 @@ jobs:
           pattern: '${{ github.repository }}@'
           paths: README.md
           only_major: true
+
       - name: Generate CHANGELOG
         uses: tj-actions/github-changelog-generator@v1.15
         with:
           output: 'HISTORY.md'
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
