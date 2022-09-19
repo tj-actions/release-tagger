@@ -30,9 +30,10 @@ jobs:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-| INPUT  |  TYPE  | REQUIRED |  DEFAULT   |           DESCRIPTION            |
-|--------|--------|----------|------------|----------------------------------|
-| remote | string | true     | `"origin"` | Remote repository to push to<br> |
+|       INPUT        |  TYPE  | REQUIRED |       DEFAULT        |            DESCRIPTION            |
+|--------------------|--------|----------|----------------------|-----------------------------------|
+| release\_notes\_file | string | true     | `"RELEASE_NOTES.md"` | File to write release notes<br>to |
+| remote             | string | true     | `"origin"`           | Remote repository to push to<br>  |
 
 <!-- AUTO-DOC-INPUT:END -->
 
