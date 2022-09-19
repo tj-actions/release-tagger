@@ -23,9 +23,12 @@ done
 
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
-    gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --tag "$NEW_TAG"
+    gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
+    # Re-tag the major version using the latest tag
+    git tag -f "$MAJOR_VERSION" "$NEW_TAG"
+    git push -f "$INPUTS_REMOTE" "$MAJOR_VERSION"
   else
-    gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --tag "$NEW_TAG"
+    gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
   fi
 fi
 
