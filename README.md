@@ -30,10 +30,11 @@ jobs:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|       INPUT        |  TYPE  | REQUIRED |       DEFAULT        |            DESCRIPTION            |
-|--------------------|--------|----------|----------------------|-----------------------------------|
-| release\_notes\_file | string | true     | `"RELEASE_NOTES.md"` | File to write release notes<br>to |
-| remote             | string | true     | `"origin"`           | Remote repository to push to<br>  |
+|       INPUT        |  TYPE  | REQUIRED |         DEFAULT         |                                                                                                                                                    DESCRIPTION                                                                                                                                                     |
+|--------------------|--------|----------|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| release\_notes\_file | string | true     | `"RELEASE_NOTES.md"`    | File to write release notes<br>to                                                                                                                                                                                                                                                                                  |
+| remote             | string | true     | `"origin"`              | Remote repository to push to<br>                                                                                                                                                                                                                                                                                   |
+| token              | string | true     | `"${{ github.token }}"` | [GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) or a repo scoped<br>[Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) |
 
 <!-- AUTO-DOC-INPUT:END -->
 
