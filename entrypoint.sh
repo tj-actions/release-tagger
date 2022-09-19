@@ -24,7 +24,11 @@ for tag in $(git tag -l "$MAJOR_VERSION.*"); do
   } >> "$INPUTS_RELEASE_NOTES_FILE"
 done
 
-gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
+if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
+  gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
+else
+  gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE"
+fi
 
 echo "::set-output name=major_version::$MAJOR_VERSION"
 echo "::set-output name=new_version::$NEW_TAG"
