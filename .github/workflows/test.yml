@@ -21,3 +21,5 @@ jobs:
         uses: reviewdog/action-shellcheck@v1
       - name: Run release-tagger
         uses: ./
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
