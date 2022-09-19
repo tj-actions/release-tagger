@@ -2,16 +2,30 @@ name: Action release tagger
 description: Automatically manage action releases
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+  remote:
+    description: 'Remote repository to push to'
     required: true
-    default: ${{ github.token }}
+    default: 'origin'
+outputs:
+  major_version:
+    description: The latest major version
+    value: ${{ steps.release-tagger.outputs.major_version }}
+  new_version:
+    description: The new version
+    value: ${{ steps.release-tagger.outputs.new_version }}
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
+  using: 'composite'
+  steps:
+    - run: |
+        bash $GITHUB_ACTION_PATH/entrypoint.sh
+      id: release-tagger
+      shell: bash
+      env:
+        GITHUB_REF: ${{ github.ref }}
+        GITHUB_EVENT_NAME: ${{ github.event_name }}
+        INPUTS_REMOTE: ${{ inputs.remote }}
+
 branding:
   icon: tag
   color: white
