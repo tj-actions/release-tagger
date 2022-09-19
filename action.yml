@@ -6,6 +6,10 @@ inputs:
     description: 'Remote repository to push to'
     required: true
     default: 'origin'
+  release_notes_file:
+    description: 'File to write release notes to'
+    required: true
+    default: 'RELEASE_NOTES.md'
 outputs:
   major_version:
     description: The latest major version
