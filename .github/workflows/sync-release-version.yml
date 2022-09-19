@@ -12,12 +12,12 @@ jobs:
         with:
           fetch-depth: 0
       - name: Sync release version
-        uses: tj-actions/sync-release-version@v11
+        uses: tj-actions/sync-release-version@v12
         id: sync-release-version
         with:
           pattern: '${{ github.repository }}@'
-          paths: |
-            README.md
+          paths: README.md
+          only_major: true
       - name: Generate CHANGELOG
         uses: tj-actions/github-changelog-generator@v1.15
         with:
