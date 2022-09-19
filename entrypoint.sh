@@ -34,3 +34,5 @@ fi
 
 echo "::set-output name=major_version::$MAJOR_VERSION"
 echo "::set-output name=new_version::$NEW_TAG"
+
+rm -f "$INPUTS_RELEASE_NOTES_FILE" || true
