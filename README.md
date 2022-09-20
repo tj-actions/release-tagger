@@ -4,7 +4,7 @@
 
 ## release-tagger
 
-Automatically manage action release tags by ensuring that major release is always up to date.
+Automatically manage action release by ensuring that major release is always up to date.
 
 ## Usage
 
