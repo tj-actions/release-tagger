@@ -4,7 +4,7 @@
 
 ## release-tagger
 
-Automatically manage [Github action](https://docs.github.com/en/actions/creating-actions) releases by ensuring that major release is always created or updated to point to the last minor/patch release.
+Automatically manage [Github action](https://docs.github.com/en/actions/creating-actions) releases by ensuring that a major release is always created or updated to point to the last minor/patch release.
 
 ## Usage
 
