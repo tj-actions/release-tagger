@@ -16,7 +16,7 @@ jobs:
         uses: tj-actions/release-tagger@v2
 
       - name: Sync release version
-        uses: tj-actions/sync-release-version@v12.2
+        uses: tj-actions/sync-release-version@v12.4
         id: sync-release-version
         with:
           pattern: '${{ github.repository }}@'
