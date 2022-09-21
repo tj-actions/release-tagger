@@ -6,6 +6,9 @@
 
 Automatically manage [Github action](https://docs.github.com/en/actions/creating-actions) releases by ensuring that a major release is always created or updated to point to the last minor/patch release.
 
+![Screen Shot 2022-09-20 at 11 13 54 PM](https://user-images.githubusercontent.com/17484350/191419709-d13f6d43-91af-4209-95de-9a88d4e70d86.png)
+
+
 ## Usage
 
 ```yaml
