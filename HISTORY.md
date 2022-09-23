@@ -1,12 +1,29 @@
 # Changelog
 
+## [v2.0.3](https://github.com/tj-actions/release-tagger/tree/v2.0.3) (2022-09-23)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.3)
+
+## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-09-23)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.2...v2)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
+
+**Merged pull requests:**
+
+- Revert "feat: add support for adding major release description to the release notes" [\#35](https://github.com/tj-actions/release-tagger/pull/35) ([jackton1](https://github.com/jackton1))
+- feat: add support for adding major release description to the release notes [\#34](https://github.com/tj-actions/release-tagger/pull/34) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#33](https://github.com/tj-actions/release-tagger/pull/33) ([jackton1](https://github.com/jackton1))
+- Update peter-evans/create-pull-request action to v4.1.2 [\#32](https://github.com/tj-actions/release-tagger/pull/32) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.2.0 [\#31](https://github.com/tj-actions/release-tagger/pull/31) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.0.2 [\#29](https://github.com/tj-actions/release-tagger/pull/29) ([jackton1](https://github.com/jackton1))
+
 ## [v2.0.2](https://github.com/tj-actions/release-tagger/tree/v2.0.2) (2022-09-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.2)
-
-## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-09-19)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.1...v2)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.1...v2.0.2)
 
 **Merged pull requests:**
 
@@ -81,10 +98,6 @@
 ## [v1.0.0](https://github.com/tj-actions/release-tagger/tree/v1.0.0) (2022-09-19)
 
 [Full Changelog](https://github.com/tj-actions/release-tagger/compare/fe810e1e5e75ff1e37683744df36ea87db79fbbe...v1.0.0)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
 
 **Merged pull requests:**
 
