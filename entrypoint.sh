@@ -12,17 +12,8 @@ git fetch "$INPUTS_REMOTE" +refs/tags/*:refs/tags/*
 NEW_TAG=${GITHUB_REF/refs\/tags\//}
 MAJOR_VERSION=$(echo "$NEW_TAG" | cut -d. -f1)
 
-if git tag -l "$MAJOR_VERSION"; then
-  echo "Adding $MAJOR_VERSION to release notes..."
-  {
-      echo "# Changes in $MAJOR_VERSION"
-      gh release view "$MAJOR_VERSION" --json body --jq '.body'
-      printf "\n---\n\n"
-  } >> "$INPUTS_RELEASE_NOTES_FILE"
-fi
-
 for tag in $(git tag -l "$MAJOR_VERSION.*"); do
-  echo "Adding $tag to release notes..."
+  echo "Adding $tag to release notes"
   {
     echo "# Changes in $tag"
     gh release view "$tag" --json body --jq '.body'
