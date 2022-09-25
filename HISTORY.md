@@ -1,12 +1,22 @@
 # Changelog
 
+## [v2.0.4](https://github.com/tj-actions/release-tagger/tree/v2.0.4) (2022-09-25)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.4)
+
+## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-09-25)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.3...v2)
+
+**Merged pull requests:**
+
+- chore: add title to release [\#38](https://github.com/tj-actions/release-tagger/pull/38) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#37](https://github.com/tj-actions/release-tagger/pull/37) ([jackton1](https://github.com/jackton1))
+- Upgraded to v2.0.3 [\#36](https://github.com/tj-actions/release-tagger/pull/36) ([jackton1](https://github.com/jackton1))
+
 ## [v2.0.3](https://github.com/tj-actions/release-tagger/tree/v2.0.3) (2022-09-23)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.3)
-
-## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-09-23)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.2...v2)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.2...v2.0.3)
 
 **Closed issues:**
 
