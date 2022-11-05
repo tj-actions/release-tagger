@@ -12,7 +12,7 @@ Automatically manage [Github action](https://docs.github.com/en/actions/creating
 
 > NOTE: :warning:
 >
-> *   **IMPORTANT:** Any single major version release decription would be overridden by this action (i.e `v2`). In order to preserve the single major version release description you'll need to create a semantic version. (i.e `v2.0.0`)
+> *   **IMPORTANT:** Any single major version release decription would be overwritten by this action (i.e `v2`). In order to preserve the single major version release description you'll need to create a semantic version. (i.e `v2.0.0`)
 
 ```yaml
 name: Tag release
