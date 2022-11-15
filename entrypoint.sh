@@ -32,7 +32,14 @@ if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   fi
 fi
 
-echo "::set-output name=major_version::$MAJOR_VERSION"
-echo "::set-output name=new_version::$NEW_TAG"
+if [[ -z "$GITHUB_OUTPUT" ]]; then
+  echo "::set-output name=major_version::$MAJOR_VERSION"
+  echo "::set-output name=new_version::$NEW_TAG"
+else
+  cat <<EOF >> "$GITHUB_OUTPUT"
+major_version=$MAJOR_VERSION
+new_version=$NEW_TAG
+EOF
+fi
 
 rm -f "$INPUTS_RELEASE_NOTES_FILE" || true
