@@ -12,7 +12,7 @@ git fetch "$INPUTS_REMOTE" +refs/tags/*:refs/tags/*
 NEW_TAG=${GITHUB_REF/refs\/tags\//}
 MAJOR_VERSION=$(echo "$NEW_TAG" | cut -d. -f1)
 
-for tag in $(git tag -l "$MAJOR_VERSION.*"); do
+for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*"); do
   echo "Adding $tag to release notes"
   {
     echo "# Changes in $tag"
