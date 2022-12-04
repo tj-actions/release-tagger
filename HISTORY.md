@@ -1,16 +1,29 @@
 # Changelog
 
-## [v2.0.5](https://github.com/tj-actions/release-tagger/tree/v2.0.5) (2022-11-15)
+## [v2.0.6](https://github.com/tj-actions/release-tagger/tree/v2.0.6) (2022-12-04)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.5)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.6)
 
-## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-11-15)
+## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-12-04)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.4...v2)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.5...v2)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
+
+**Merged pull requests:**
+
+- chore: sort latest tags first [\#52](https://github.com/tj-actions/release-tagger/pull/52) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update tj-actions/auto-doc action to v1.5.0 [\#51](https://github.com/tj-actions/release-tagger/pull/51) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update peter-evans/create-pull-request action to v4.2.3 [\#50](https://github.com/tj-actions/release-tagger/pull/50) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update peter-evans/create-pull-request action to v4.2.2 [\#49](https://github.com/tj-actions/release-tagger/pull/49) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update peter-evans/create-pull-request action to v4.2.1 [\#48](https://github.com/tj-actions/release-tagger/pull/48) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.0.5 [\#47](https://github.com/tj-actions/release-tagger/pull/47) ([jackton1](https://github.com/jackton1))
+
+## [v2.0.5](https://github.com/tj-actions/release-tagger/tree/v2.0.5) (2022-11-15)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.4...v2.0.5)
 
 **Merged pull requests:**
 
