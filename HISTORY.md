@@ -1,16 +1,29 @@
 # Changelog
 
-## [v2.0.6](https://github.com/tj-actions/release-tagger/tree/v2.0.6) (2022-12-04)
+## [v2.1.0](https://github.com/tj-actions/release-tagger/tree/v2.1.0) (2022-12-18)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.0.6)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.1.0)
 
-## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-12-04)
+## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-12-18)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.5...v2)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.6...v2)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
+
+**Merged pull requests:**
+
+- feat: add support for downloading release assets [\#58](https://github.com/tj-actions/release-tagger/pull/58) ([jackton1](https://github.com/jackton1))
+- Updated README.md [\#57](https://github.com/tj-actions/release-tagger/pull/57) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update tj-actions/verify-changed-files action to v13 [\#56](https://github.com/tj-actions/release-tagger/pull/56) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v1.6.0 [\#55](https://github.com/tj-actions/release-tagger/pull/55) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update cirrus-actions/rebase action to v1.8 [\#54](https://github.com/tj-actions/release-tagger/pull/54) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.0.6 [\#53](https://github.com/tj-actions/release-tagger/pull/53) ([jackton1](https://github.com/jackton1))
+
+## [v2.0.6](https://github.com/tj-actions/release-tagger/tree/v2.0.6) (2022-12-04)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.5...v2.0.6)
 
 **Merged pull requests:**
 
@@ -77,19 +90,19 @@
 
 ## [v2.0.0](https://github.com/tj-actions/release-tagger/tree/v2.0.0) (2022-09-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.3...v2.0.0)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1...v2.0.0)
 
 **Merged pull requests:**
 
 - Upgraded to v1.1.3 [\#24](https://github.com/tj-actions/release-tagger/pull/24) ([jackton1](https://github.com/jackton1))
 
-## [v1.1.3](https://github.com/tj-actions/release-tagger/tree/v1.1.3) (2022-09-19)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1...v1.1.3)
-
 ## [v1](https://github.com/tj-actions/release-tagger/tree/v1) (2022-09-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.2...v1)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.3...v1)
+
+## [v1.1.3](https://github.com/tj-actions/release-tagger/tree/v1.1.3) (2022-09-19)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.2...v1.1.3)
 
 **Merged pull requests:**
 
