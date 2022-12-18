@@ -49,3 +49,4 @@ EOF
 fi
 
 rm -f "$INPUTS_RELEASE_NOTES_FILE" || true
+rm -rf "$RELEASE_ASSETS_DIR" || true
