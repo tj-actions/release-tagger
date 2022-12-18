@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -euo pipefail
 
 if [[ $GITHUB_REF != "refs/tags/"* ]]; then
   echo "::warning::Skipping: This should only run on tags push or on release.";
