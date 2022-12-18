@@ -11,6 +11,7 @@ git fetch "$INPUTS_REMOTE" +refs/tags/*:refs/tags/*
 
 NEW_TAG=${GITHUB_REF/refs\/tags\//}
 MAJOR_VERSION=$(echo "$NEW_TAG" | cut -d. -f1)
+RELEASE_ASSETS_DIR=$(mktemp -d)
 
 for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*"); do
   echo "Adding $tag to release notes"
@@ -19,16 +20,21 @@ for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*"); do
     gh release view "$tag" --json body --jq '.body'
     printf "\n---\n\n"
   } >> "$INPUTS_RELEASE_NOTES_FILE"
+
+  # Download the release assets
+  gh release download "$tag" --dir "$RELEASE_ASSETS_DIR"
 done
 
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
     gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
+    gh release upload --clobber "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
+
     # Re-tag the major version using the latest tag
     git tag -f "$MAJOR_VERSION" "$NEW_TAG"
     git push -f "$INPUTS_REMOTE" "$MAJOR_VERSION"
   else
-    gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
+    gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
   fi
 fi
 
@@ -43,3 +49,4 @@ EOF
 fi
 
 rm -f "$INPUTS_RELEASE_NOTES_FILE" || true
+rm -rf "$RELEASE_ASSETS_DIR" || true
