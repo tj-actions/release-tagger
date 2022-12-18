@@ -22,13 +22,15 @@ for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*"); do
   } >> "$INPUTS_RELEASE_NOTES_FILE"
 
   # Download the release assets
-  gh release download "$tag" --dir "$RELEASE_ASSETS_DIR"
+  gh release download "$tag" --dir "$RELEASE_ASSETS_DIR" || true
 done
 
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
     gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
-    gh release upload --clobber "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
+    if [[ -n "$(ls -A "$RELEASE_ASSETS_DIR")" ]]; then
+      gh release upload --clobber "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
+    fi
 
     # Re-tag the major version using the latest tag
     git tag -f "$MAJOR_VERSION" "$NEW_TAG"
