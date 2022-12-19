@@ -36,7 +36,11 @@ if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
     git tag -f "$MAJOR_VERSION" "$NEW_TAG"
     git push -f "$INPUTS_REMOTE" "$MAJOR_VERSION"
   else
-    gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
+    if ls "$RELEASE_ASSETS_DIR"/*; then
+      gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
+    else
+      gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
+    fi
   fi
 fi
 
