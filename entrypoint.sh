@@ -28,7 +28,7 @@ done
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
     gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
-    if [[ -n "$(ls -A "$RELEASE_ASSETS_DIR")" ]]; then
+    if [[ -d "$RELEASE_ASSETS_DIR" && -n "$(ls -A "$RELEASE_ASSETS_DIR")" ]]; then
       gh release upload --clobber "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
     fi
 
