@@ -40,6 +40,7 @@ if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   fi
 fi
 
+
 if [[ -z "$GITHUB_OUTPUT" ]]; then
   echo "::set-output name=major_version::$MAJOR_VERSION"
   echo "::set-output name=new_version::$NEW_TAG"
