@@ -21,14 +21,18 @@ for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*"); do
     printf "\n---\n\n"
   } >> "$INPUTS_RELEASE_NOTES_FILE"
 
-  # Download the release assets
-  gh release download "$tag" --dir "$RELEASE_ASSETS_DIR" || true
 done
+
+# Download the release asset
+gh release download "$NEW_TAG" --dir "$RELEASE_ASSETS_DIR" || true
 
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
+    # Update the release notes
     gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
-    if ls "$RELEASE_ASSETS_DIR"/*; then
+
+    # if the RELEASE_ASSETS_DIR is not empty, upload the assets
+    if [[ -n "$(find "$RELEASE_ASSETS_DIR" -type f)" ]]; then
       gh release upload --clobber "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
     fi
 
