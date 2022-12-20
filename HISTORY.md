@@ -1,12 +1,21 @@
 # Changelog
 
+## [v2.1.4](https://github.com/tj-actions/release-tagger/tree/v2.1.4) (2022-12-20)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.1.4)
+
+## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-12-20)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.3...v2)
+
+**Merged pull requests:**
+
+- chore: update to only download release assets for the current tag [\#64](https://github.com/tj-actions/release-tagger/pull/64) ([jackton1](https://github.com/jackton1))
+- Upgraded to v2.1.3 [\#63](https://github.com/tj-actions/release-tagger/pull/63) ([jackton1](https://github.com/jackton1))
+
 ## [v2.1.3](https://github.com/tj-actions/release-tagger/tree/v2.1.3) (2022-12-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.1.3)
-
-## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-12-19)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.2...v2)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.2...v2.1.3)
 
 **Merged pull requests:**
 
