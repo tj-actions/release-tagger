@@ -1,12 +1,32 @@
 # Changelog
 
+## [v2.1.5](https://github.com/tj-actions/release-tagger/tree/v2.1.5) (2023-03-07)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.1.5)
+
+## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2023-03-07)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.4...v2)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
+
+**Merged pull requests:**
+
+- fix: error returned by listing the contents of the release dir [\#73](https://github.com/tj-actions/release-tagger/pull/73) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update tj-actions/auto-doc action to v1.7.4 [\#72](https://github.com/tj-actions/release-tagger/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout action to v3.3.0 [\#71](https://github.com/tj-actions/release-tagger/pull/71) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v1.7.3 [\#70](https://github.com/tj-actions/release-tagger/pull/70) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v1.7.2 [\#69](https://github.com/tj-actions/release-tagger/pull/69) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#68](https://github.com/tj-actions/release-tagger/pull/68) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update tj-actions/auto-doc action to v1.7.1 [\#67](https://github.com/tj-actions/release-tagger/pull/67) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/github-changelog-generator action to v1.17 [\#66](https://github.com/tj-actions/release-tagger/pull/66) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.1.4 [\#65](https://github.com/tj-actions/release-tagger/pull/65) ([jackton1](https://github.com/jackton1))
+
 ## [v2.1.4](https://github.com/tj-actions/release-tagger/tree/v2.1.4) (2022-12-20)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v2.1.4)
-
-## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2022-12-20)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.3...v2)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.3...v2.1.4)
 
 **Merged pull requests:**
 
@@ -37,10 +57,6 @@
 ## [v2.1.0](https://github.com/tj-actions/release-tagger/tree/v2.1.0) (2022-12-18)
 
 [Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.0.6...v2.1.0)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
 
 **Merged pull requests:**
 
@@ -120,19 +136,19 @@
 
 ## [v2.0.0](https://github.com/tj-actions/release-tagger/tree/v2.0.0) (2022-09-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.3...v2.0.0)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1...v2.0.0)
 
 **Merged pull requests:**
 
 - Upgraded to v1.1.3 [\#24](https://github.com/tj-actions/release-tagger/pull/24) ([jackton1](https://github.com/jackton1))
 
-## [v1.1.3](https://github.com/tj-actions/release-tagger/tree/v1.1.3) (2022-09-19)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1...v1.1.3)
-
 ## [v1](https://github.com/tj-actions/release-tagger/tree/v1) (2022-09-19)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.2...v1)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.3...v1)
+
+## [v1.1.3](https://github.com/tj-actions/release-tagger/tree/v1.1.3) (2022-09-19)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v1.1.2...v1.1.3)
 
 **Merged pull requests:**
 
