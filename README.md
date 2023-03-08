@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Create or update major release tag
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Run release-tagger
         uses: tj-actions/release-tagger@v2
 ```
