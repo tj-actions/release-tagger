@@ -1,12 +1,21 @@
 # Changelog
 
-## [v3.0.0](https://github.com/tj-actions/release-tagger/tree/v3.0.0) (2023-03-10)
-
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v3...v3.0.0)
-
 ## [v3](https://github.com/tj-actions/release-tagger/tree/v3) (2023-03-10)
 
-[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v3)
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v3.1.0...v3)
+
+## [v3.1.0](https://github.com/tj-actions/release-tagger/tree/v3.1.0) (2023-03-10)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v3.0.0...v3.1.0)
+
+**Merged pull requests:**
+
+- Updated README.md [\#84](https://github.com/tj-actions/release-tagger/pull/84) ([jackton1](https://github.com/jackton1))
+- Upgraded to v3 [\#83](https://github.com/tj-actions/release-tagger/pull/83) ([jackton1](https://github.com/jackton1))
+
+## [v3.0.0](https://github.com/tj-actions/release-tagger/tree/v3.0.0) (2023-03-10)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v3.0.0)
 
 **Closed issues:**
 
