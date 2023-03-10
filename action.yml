@@ -6,10 +6,6 @@ inputs:
     description: '[GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) or a repo scoped [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)'
     required: true
     default: ${{ github.token }}
-  remote:
-    description: 'Remote repository to push to'
-    required: true
-    default: 'origin'
   release_notes_file:
     description: 'File to write release notes to'
     required: true
@@ -30,10 +26,11 @@ runs:
       id: release-tagger
       shell: bash
       env:
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        GITHUB_SERVER_URL: ${{ github.server_url }}
         GITHUB_REF: ${{ github.ref }}
         GH_TOKEN: ${{ inputs.token }}
         GITHUB_EVENT_NAME: ${{ github.event_name }}
-        INPUTS_REMOTE: ${{ inputs.remote }}
         INPUTS_RELEASE_NOTES_FILE: ${{ inputs.release_notes_file }}
 
 branding:
