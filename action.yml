@@ -26,6 +26,8 @@ runs:
       id: release-tagger
       shell: bash
       env:
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        GITHUB_SERVER_URL: ${{ github.server_url }}
         GITHUB_REF: ${{ github.ref }}
         GH_TOKEN: ${{ inputs.token }}
         GITHUB_EVENT_NAME: ${{ github.event_name }}
