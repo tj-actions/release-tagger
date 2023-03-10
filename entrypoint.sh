@@ -7,7 +7,12 @@ if [[ $GITHUB_REF != "refs/tags/"* ]]; then
   exit 0;
 fi
 
-git fetch "$INPUTS_REMOTE" +refs/tags/*:refs/tags/*
+GITHUB_HOST=${GITHUB_SERVER_URL#https://}
+REMOTE_URL=https://$INPUTS_TOKEN@$GITHUB_HOST/$GITHUB_REPOSITORY
+
+echo "Remote URL: $REMOTE_URL"
+
+git fetch "$REMOTE_URL" +refs/tags/*:refs/tags/*
 
 NEW_TAG=${GITHUB_REF/refs\/tags\//}
 MAJOR_VERSION=$(echo "$NEW_TAG" | cut -d. -f1)
@@ -38,7 +43,7 @@ if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
 
     # Re-tag the major version using the latest tag
     git tag -f "$MAJOR_VERSION" "$NEW_TAG"
-    git push -f "$INPUTS_REMOTE" "$MAJOR_VERSION"
+    git push -f "$REMOTE_URL" "$MAJOR_VERSION"
   else
     if [[ -n "$(find "$RELEASE_ASSETS_DIR" -type f)" ]]; then
       gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
