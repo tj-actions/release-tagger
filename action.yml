@@ -4,7 +4,11 @@ author: tj-actions
 inputs:
   token:
     description: '[GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) or a repo scoped [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)'
-    required: true
+    required: false
+    default: ${{ github.token }}
+  gh_token:
+    description: 'Github CLI token'
+    required: false
     default: ${{ github.token }}
   release_notes_file:
     description: 'File to write release notes to'
@@ -29,8 +33,9 @@ runs:
         GITHUB_REPOSITORY: ${{ github.repository }}
         GITHUB_SERVER_URL: ${{ github.server_url }}
         GITHUB_REF: ${{ github.ref }}
-        GH_TOKEN: ${{ inputs.token }}
+        GH_TOKEN: ${{ inputs.gh_token }}
         GITHUB_EVENT_NAME: ${{ github.event_name }}
+        INPUTS_TOKEN: ${{ inputs.token }}
         INPUTS_RELEASE_NOTES_FILE: ${{ inputs.release_notes_file }}
 
 branding:
