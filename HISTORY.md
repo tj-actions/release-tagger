@@ -1,5 +1,27 @@
 # Changelog
 
+## [v3.0.0](https://github.com/tj-actions/release-tagger/tree/v3.0.0) (2023-03-10)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v3...v3.0.0)
+
+## [v3](https://github.com/tj-actions/release-tagger/tree/v3) (2023-03-10)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v3)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
+
+**Merged pull requests:**
+
+- Updated README.md [\#82](https://github.com/tj-actions/release-tagger/pull/82) ([jackton1](https://github.com/jackton1))
+- feat: ensure that the token is utilized [\#81](https://github.com/tj-actions/release-tagger/pull/81) ([jackton1](https://github.com/jackton1))
+- chore\(deps\): update tj-actions/github-changelog-generator action to v1.18 [\#80](https://github.com/tj-actions/release-tagger/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v2.2.0 [\#79](https://github.com/tj-actions/release-tagger/pull/79) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v2.0.3 [\#78](https://github.com/tj-actions/release-tagger/pull/78) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v2 [\#77](https://github.com/tj-actions/release-tagger/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v2.1.6 [\#76](https://github.com/tj-actions/release-tagger/pull/76) ([jackton1](https://github.com/jackton1))
+
 ## [v2](https://github.com/tj-actions/release-tagger/tree/v2) (2023-03-09)
 
 [Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.6...v2)
@@ -7,10 +29,6 @@
 ## [v2.1.6](https://github.com/tj-actions/release-tagger/tree/v2.1.6) (2023-03-09)
 
 [Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2.1.5...v2.1.6)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
 
 **Merged pull requests:**
 
