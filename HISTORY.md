@@ -1,8 +1,22 @@
 # Changelog
 
-## [v3](https://github.com/tj-actions/release-tagger/tree/v3) (2023-03-10)
+## [v3.2.0](https://github.com/tj-actions/release-tagger/tree/v3.2.0) (2023-03-14)
+
+[Full Changelog](https://github.com/tj-actions/release-tagger/compare/v3...v3.2.0)
+
+## [v3](https://github.com/tj-actions/release-tagger/tree/v3) (2023-03-14)
 
 [Full Changelog](https://github.com/tj-actions/release-tagger/compare/v3.1.0...v3)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
+
+**Merged pull requests:**
+
+- chore\(deps\): update tj-actions/release-tagger action to v3 [\#87](https://github.com/tj-actions/release-tagger/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update tj-actions/auto-doc action to v2.2.3 [\#86](https://github.com/tj-actions/release-tagger/pull/86) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v3.1.0 [\#85](https://github.com/tj-actions/release-tagger/pull/85) ([jackton1](https://github.com/jackton1))
 
 ## [v3.1.0](https://github.com/tj-actions/release-tagger/tree/v3.1.0) (2023-03-10)
 
@@ -16,10 +30,6 @@
 ## [v3.0.0](https://github.com/tj-actions/release-tagger/tree/v3.0.0) (2023-03-10)
 
 [Full Changelog](https://github.com/tj-actions/release-tagger/compare/v2...v3.0.0)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#5](https://github.com/tj-actions/release-tagger/issues/5)
 
 **Merged pull requests:**
 
