@@ -18,7 +18,7 @@ NEW_TAG=${GITHUB_REF/refs\/tags\//}
 MAJOR_VERSION=$(echo "$NEW_TAG" | cut -d. -f1)
 RELEASE_ASSETS_DIR=$(mktemp -d)
 
-for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*"); do
+for tag in $(git tag -l --sort=-version:refname "$MAJOR_VERSION.*" | grep -E '^v[0-9]+\.[0-9]+(\.[0-9]+)?$'); do
   echo "Adding $tag to release notes"
   {
     echo "# Changes in $tag"
