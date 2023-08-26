@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run release-tagger
-        uses: tj-actions/release-tagger@v3
+        uses: tj-actions/release-tagger@v4
 ```
 
 ## Inputs
