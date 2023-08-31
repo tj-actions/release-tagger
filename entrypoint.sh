@@ -53,15 +53,11 @@ if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
   fi
 fi
 
-if [[ -z "$GITHUB_OUTPUT" ]]; then
-  echo "::set-output name=major_version::$MAJOR_VERSION"
-  echo "::set-output name=new_version::$NEW_TAG"
-else
-  cat <<EOF >> "$GITHUB_OUTPUT"
+
+cat <<EOF >> "$GITHUB_OUTPUT"
 major_version=$MAJOR_VERSION
 new_version=$NEW_TAG
 EOF
-fi
 
 rm -f "$INPUTS_RELEASE_NOTES_FILE" || true
 rm -rf "$RELEASE_ASSETS_DIR" || true
