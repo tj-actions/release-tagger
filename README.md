@@ -81,7 +81,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://boidol.dev/"><img src="https://avatars.githubusercontent.com/u/652404?v=4?s=100" width="100px;" alt="Raphael Boidol"/><br /><sub><b>Raphael Boidol</b></sub></a><br /><a href="https://github.com/tj-actions/release-tagger/commits?author=boidolr" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://boidol.dev/"><img src="https://avatars.githubusercontent.com/u/652404?v=4?s=100" width="100px;" alt="Raphael Boidol"/><br /><sub><b>Raphael Boidol</b></sub></a><br /><a href="https://github.com/tj-actions/release-tagger/commits?author=boidolr" title="Code">💻</a> <a href="https://github.com/tj-actions/release-tagger/commits?author=boidolr" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
