@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Create or update major release tag
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Run release-tagger
         uses: tj-actions/release-tagger@v4
 ```
