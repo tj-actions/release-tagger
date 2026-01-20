@@ -1,5 +1,125 @@
 # Changelog
 
+# [5.0.1](https://github.com/tj-actions/release-tagger/compare/v5.0.0...v5.0.1) - (2026-01-20)
+
+## <!-- 26 -->🔄 Update
+
+- Update sync-release-version.yml ([8576dad](https://github.com/tj-actions/release-tagger/commit/8576dad34b92e91f6f69100b3966e76ff9226f5b))  - (Tonye Jack)
+- Update test.yml ([2d9ca99](https://github.com/tj-actions/release-tagger/commit/2d9ca991de561fa13e3bd654f05cf343c37c496f))  - (Tonye Jack)
+- Update test.yml ([e44a0b0](https://github.com/tj-actions/release-tagger/commit/e44a0b01e0c2d8e8108b206e5fb1fb561bd59736))  - (Tonye Jack)
+- Update sync-release-version.yml ([e07ea9c](https://github.com/tj-actions/release-tagger/commit/e07ea9c5f0937b0192ee9bb468b073f7ce5d4ae1))  - (Tonye Jack)
+
+# [5.0.0](https://github.com/tj-actions/release-tagger/compare/v4.0.1...v5.0.0) - (2026-01-20)
+
+## <!-- 26 -->🔄 Update
+
+- Update sync-release-version.yml ([bb2b6fc](https://github.com/tj-actions/release-tagger/commit/bb2b6fcd19f964acfd23ffdb3b69002d42af60d3))  - (Tonye Jack)
+
+# [4.0.1](https://github.com/tj-actions/release-tagger/compare/v4.0.0...v4.0.1) - (2025-12-20)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/rebase.yml ([acb82e5](https://github.com/tj-actions/release-tagger/commit/acb82e5d1c75a6bda44720f153d5e35544203aba))  - (Tonye Jack)
+- Deleted renovate.json ([ac44275](https://github.com/tj-actions/release-tagger/commit/ac44275195b254836b5827b5f302e64078475408))  - (Tonye Jack)
+- Deleted .github/workflows/auto-approve.yml ([c9fd65c](https://github.com/tj-actions/release-tagger/commit/c9fd65c60f0036e8776e71d3cec8a2a077f230fa))  - (Tonye Jack)
+- Deleted .github/workflows/greetings.yml ([24219f6](https://github.com/tj-actions/release-tagger/commit/24219f6ddec307c956999fa57bf73f3b465297b3))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/feature_request.yaml ([b8bc682](https://github.com/tj-actions/release-tagger/commit/b8bc6820ea8bb3a71314c4ad6ec7647508a6de80))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/bug_report.yaml ([5af10ca](https://github.com/tj-actions/release-tagger/commit/5af10ca1c8a28413016fbbab25e64d0dcb696ea3))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([b223709](https://github.com/tj-actions/release-tagger/commit/b22370985456c758be759945e85d60fcb36cfc72))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update update-readme.yml ([#182](https://github.com/tj-actions/release-tagger/issues/182)) ([ecb6722](https://github.com/tj-actions/release-tagger/commit/ecb6722bde396d913a8aad3000612be0463344fd))  - (Tonye Jack)
+- Update sync-release-version.yml ([e303fb6](https://github.com/tj-actions/release-tagger/commit/e303fb6499cac25875008e3f9d9fc1c8d1a27afc))  - (Tonye Jack)
+- Update README.md ([47e2814](https://github.com/tj-actions/release-tagger/commit/47e28147ed7a92f7a7285ebb7dead80165cdfefc))  - (Tonye Jack)
+- Updated README.md ([#171](https://github.com/tj-actions/release-tagger/issues/171))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([d88f573](https://github.com/tj-actions/release-tagger/commit/d88f5735eeb1532c6faa33779ee6d7d09fec7a7a))  - (tj-actions[bot])
+- Updated README.md ([0668e6e](https://github.com/tj-actions/release-tagger/commit/0668e6e7b8f5b5bc2bbabdf8ea29d7fb97284fee))  - (jackton1)
+- Update README.md ([5859094](https://github.com/tj-actions/release-tagger/commit/5859094e5eea36faffaa26e1ebb72ce1b7748dd4))  - (Tonye Jack)
+
+## <!-- 3 -->📚 Documentation
+
+- Update checkout action ([#145](https://github.com/tj-actions/release-tagger/issues/145)) ([de8fae1](https://github.com/tj-actions/release-tagger/commit/de8fae13fd6f10e1abfde11055ab8bd4372fc10f))  - (Raphael Boidol)
+- Add boidolr as a contributor for doc ([#170](https://github.com/tj-actions/release-tagger/issues/170)) ([0b851ef](https://github.com/tj-actions/release-tagger/commit/0b851ef6345ea36a18ad482dbbf6f9726be733ae))  - (allcontributors[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#162](https://github.com/tj-actions/release-tagger/pull/162): update actions/checkout digest to 0ad4b8f ([b82620f](https://github.com/tj-actions/release-tagger/commit/b82620f415d4cfb99a4ce1d85bb74dccde5a5526))  - (repo-ranger[bot])
+- PR [#158](https://github.com/tj-actions/release-tagger/pull/158): update tj-actions/verify-changed-files action to v20 ([0c3072c](https://github.com/tj-actions/release-tagger/commit/0c3072cf525e9260abc3c56757aed740508c32ae))  - (repo-ranger[bot])
+- PR [#148](https://github.com/tj-actions/release-tagger/pull/148): update actions/checkout digest to b4ffde6 ([46f4642](https://github.com/tj-actions/release-tagger/commit/46f464232656b86fa73c600b442ce53955f32c3c))  - (repo-ranger[bot])
+- PR [#144](https://github.com/tj-actions/release-tagger/pull/144): update tj-actions/verify-changed-files action to v19 ([4ee3f08](https://github.com/tj-actions/release-tagger/commit/4ee3f08b945587aafdf9aea3d793ec90944ef5d0))  - (repo-ranger[bot])
+- PR [#141](https://github.com/tj-actions/release-tagger/pull/141): update tj-actions/verify-changed-files action to v18 ([173e379](https://github.com/tj-actions/release-tagger/commit/173e379642626283df35d4c842921782e8e2aa07))  - (repo-ranger[bot])
+- PR [#140](https://github.com/tj-actions/release-tagger/pull/140): update peter-evans/create-pull-request action to v6 ([9f63cb7](https://github.com/tj-actions/release-tagger/commit/9f63cb753e4cee86b96cb7dcf30e4d62d29cf327))  - (repo-ranger[bot])
+- PR [#138](https://github.com/tj-actions/release-tagger/pull/138): update tj-actions/verify-changed-files action to v17 ([bbed6f5](https://github.com/tj-actions/release-tagger/commit/bbed6f5fe4a990a1b95f1dc145dd8c3ea0dc506a))  - (repo-ranger[bot])
+- PR [#137](https://github.com/tj-actions/release-tagger/pull/137): update github/codeql-action action to v3 ([5205f29](https://github.com/tj-actions/release-tagger/commit/5205f29f7d5d62e2c754c23a2ac68fc1a459b631))  - (repo-ranger[bot])
+- PR [#136](https://github.com/tj-actions/release-tagger/pull/136): README.md ([935cafb](https://github.com/tj-actions/release-tagger/commit/935cafb6af0e52c6befa6e7b470c3d0312317220))  - (repo-ranger[bot])
+- PR [#124](https://github.com/tj-actions/release-tagger/pull/124): update actions/checkout action to v4 ([327d4c0](https://github.com/tj-actions/release-tagger/commit/327d4c0171f4c5d1fc57024ebdc0392c32ac7556))  - (repo-ranger[bot])
+- PR [#123](https://github.com/tj-actions/release-tagger/pull/123): remove deprecated set-output call ([68a9617](https://github.com/tj-actions/release-tagger/commit/68a96171ac5d6b9b8998dc7d297061401e4f1aaf))  - (repo-ranger[bot])
+- PR [#122](https://github.com/tj-actions/release-tagger/pull/122): update tj-actions/release-tagger action to v4 ([87e3574](https://github.com/tj-actions/release-tagger/commit/87e35743ea0cb68cbfd1462db98cd38b4323b9ce))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update actions/checkout action to v4.2.2 ([e2fd475](https://github.com/tj-actions/release-tagger/commit/e2fd4756c606b74acd6a49a9673d302b3576c4b9))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 11bd719 ([408c9b4](https://github.com/tj-actions/release-tagger/commit/408c9b4cb7c684f0238175d0cb89bf1bcdc7b884))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.2.1 ([#178](https://github.com/tj-actions/release-tagger/issues/178)) ([a1145aa](https://github.com/tj-actions/release-tagger/commit/a1145aa60fb87322781f58776c1ffc4bee578d6f))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v7 ([#175](https://github.com/tj-actions/release-tagger/issues/175)) ([08a640d](https://github.com/tj-actions/release-tagger/commit/08a640d6f09ce21694e3eff3667522d29b171c1a))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to eef6144 ([12430d5](https://github.com/tj-actions/release-tagger/commit/12430d54a8ead7e646f5bbd83d65db136387f076))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.2.0 ([51d12d8](https://github.com/tj-actions/release-tagger/commit/51d12d89049c43c36b9f210934a7d64b4bf4a226))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.5 ([23dd2f2](https://github.com/tj-actions/release-tagger/commit/23dd2f26548a94717f2693f48e394e8e92a972ef))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.4 ([300253f](https://github.com/tj-actions/release-tagger/commit/300253f02278f26ff2c78b49721e56332372d3f1))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.2 ([453e294](https://github.com/tj-actions/release-tagger/commit/453e2949a467826743312c601d0fb3e3471c9fa1))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.1.0 ([fc47b8a](https://github.com/tj-actions/release-tagger/commit/fc47b8a8a553210185eb78986db16d1e47d17642))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 692973e ([25539d0](https://github.com/tj-actions/release-tagger/commit/25539d0b5362244bc09422a452eb9a25517bc5ea))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.7 ([2729cdc](https://github.com/tj-actions/release-tagger/commit/2729cdc2273df934b14631a7c8f7bbfd0d9ff6fd))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to a5ac7e5 ([32522d1](https://github.com/tj-actions/release-tagger/commit/32522d1a368542fede09c054b89124b5e07e6d01))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.6 ([bcbc97f](https://github.com/tj-actions/release-tagger/commit/bcbc97fe0af769d8d88085231c46ffd4b1c9a16a))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([ea7b707](https://github.com/tj-actions/release-tagger/commit/ea7b7074a8f0736ce99266bfb05acaa3e85e8346))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 44c2b7a ([70d2553](https://github.com/tj-actions/release-tagger/commit/70d25532b9800265c03f7da1a2c3805dccd49c2c))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.5 ([3ff1a49](https://github.com/tj-actions/release-tagger/commit/3ff1a4960a167b5cdcd51d94efb801fd580ad610))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.1 ([bb22c38](https://github.com/tj-actions/release-tagger/commit/bb22c38676575a31830dacb58e6a92f1fe81cef4))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v20 ([6493b2d](https://github.com/tj-actions/release-tagger/commit/6493b2d162d60aa814f2157f331ec2c3cd9686db))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.5.0 ([5acc330](https://github.com/tj-actions/release-tagger/commit/5acc3304a2b91164d9d5bbdeb17b5d4ea72a2d8d))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([a68b3ab](https://github.com/tj-actions/release-tagger/commit/a68b3abfd52ac9d39c89a64293524bf11a5cee74))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.4 ([0b0a98d](https://github.com/tj-actions/release-tagger/commit/0b0a98dac8895afaec4e5ba4a47d1b56e22c035a))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.5 ([a234235](https://github.com/tj-actions/release-tagger/commit/a234235c000347f0f5a3e7f57d62c3a739e2dbc1))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 1d96c77 ([3d8bbb9](https://github.com/tj-actions/release-tagger/commit/3d8bbb9e25c6b4af4002955d38f0025b5bacfb93))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.3 ([48fb9ab](https://github.com/tj-actions/release-tagger/commit/48fb9ab4894a30eb59301e2aaec462a7b818db4d))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.4 ([13fc45f](https://github.com/tj-actions/release-tagger/commit/13fc45fb3fd01d1207ad27de8e9e148decc1d0f6))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.3 ([79f41a4](https://github.com/tj-actions/release-tagger/commit/79f41a43b27433423b1ecf412ff2f23d4a5e757f))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([d43c26b](https://github.com/tj-actions/release-tagger/commit/d43c26bf08f947ff0076b2cf37dea166ab427802))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.2 ([4f496ac](https://github.com/tj-actions/release-tagger/commit/4f496ac5af0314308e4610ede5fcadc0b77520dd))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 9bb5618 ([bacf274](https://github.com/tj-actions/release-tagger/commit/bacf274176faf10e4453182d75453152e410ce11))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.2 ([e9e1d36](https://github.com/tj-actions/release-tagger/commit/e9e1d368521bf359a9a478b5dc6ee90a05f0be28))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v19 ([e9c4ea6](https://github.com/tj-actions/release-tagger/commit/e9c4ea6742aa3bf750f0e56cb92877c1abbd7f78))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.1 ([929b07c](https://github.com/tj-actions/release-tagger/commit/929b07cb0198d0fe7ddc7200dad5c329128d82b3))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.0 ([89ae75d](https://github.com/tj-actions/release-tagger/commit/89ae75dcdefcf204f5c8c2a5530879dfa246a42b))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v18 ([9d19e19](https://github.com/tj-actions/release-tagger/commit/9d19e19c17ba8b273e0f7f8aa11b8267cec28add))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6 ([97edd66](https://github.com/tj-actions/release-tagger/commit/97edd664f7be0409d6ba6366f5f3c8768bf98394))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.4.1 ([4262c94](https://github.com/tj-actions/release-tagger/commit/4262c941df999961ad977e008b5c0eea674b0b2d))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v17 ([78247db](https://github.com/tj-actions/release-tagger/commit/78247db65e6124ec3471f864d9ebcb2721dbc6cb))  - (renovate[bot])
+- **deps:** Update github/codeql-action action to v3 ([02ecc2a](https://github.com/tj-actions/release-tagger/commit/02ecc2a9a00cf5145496fa3c0f40f0894154707f))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.4.0 ([9bcdfa0](https://github.com/tj-actions/release-tagger/commit/9bcdfa04cdedb6f91b271875fc688244b6bbd040))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.3.0 ([11b0258](https://github.com/tj-actions/release-tagger/commit/11b02582385df33b1505484f6f87dd0b785283bc))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.2.1 ([5546078](https://github.com/tj-actions/release-tagger/commit/55460784fe7857ca7875ef5594316da4e2e5db9c))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.2.0 ([693e271](https://github.com/tj-actions/release-tagger/commit/693e2719e1df04c419c9211fe8c1dc5d9ff333c9))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.1.1 ([14b0e5e](https://github.com/tj-actions/release-tagger/commit/14b0e5e9c7abc1f4fff7b88018296e4a3b1cb08b))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([5060f62](https://github.com/tj-actions/release-tagger/commit/5060f6268615594ca76e803c0b76230e88c665c8))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.1 ([cc3da0d](https://github.com/tj-actions/release-tagger/commit/cc3da0dde8430f52bf131b4678b6d6b20b0e291e))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.1.0 ([4367c23](https://github.com/tj-actions/release-tagger/commit/4367c23bcce037bf99e2ec12f2746b0d0d266295))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 8ade135 ([605e26b](https://github.com/tj-actions/release-tagger/commit/605e26bf67162515678a804873c25629ccbfd8c7))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4.1.0 ([e314e41](https://github.com/tj-actions/release-tagger/commit/e314e419dd2a5ce15864f8233907427cd45d1bc6))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3.0.1 ([44bbdbb](https://github.com/tj-actions/release-tagger/commit/44bbdbb655d66eec83ed1f7a7855c3b5e332bc1f))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4 ([fbd19c1](https://github.com/tj-actions/release-tagger/commit/fbd19c1ce699785f3c66a1adaf5b809086cee0c1))  - (renovate[bot])
+- Remove deprecated set-output call ([9b04f38](https://github.com/tj-actions/release-tagger/commit/9b04f389c0ae050ff755dfdcc4bbc6d0bfdf2382))  - (Tonye Jack)
+- **deps:** Update tj-actions/release-tagger action to v4 ([cf237d6](https://github.com/tj-actions/release-tagger/commit/cf237d63d8c86da51008adb5d540245f047e0fec))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded to v4 ([#121](https://github.com/tj-actions/release-tagger/issues/121))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([a2f52f0](https://github.com/tj-actions/release-tagger/commit/a2f52f018625c2a5c2f7deb0a8e563feeabef8cf))  - (tj-actions[bot])
+
 # [4.0.0](https://github.com/tj-actions/release-tagger/compare/v3.2.0...v4.0.0) - (2023-08-26)
 
 ## <!-- 0 -->🚀 Features
@@ -14,15 +134,12 @@
 
 - Update test.yml ([97c04f3](https://github.com/tj-actions/release-tagger/commit/97c04f37f1805443ee7dededfe18b48a722e3000))  - (Tonye Jack)
 - Update test.yml ([0016479](https://github.com/tj-actions/release-tagger/commit/00164794a6630b53282416390fdb97028c19ec97))  - (Tonye Jack)
-- Updated README.md
- ([3389d68](https://github.com/tj-actions/release-tagger/commit/3389d680a04c3b0a44e4e13a02ef15f003a41a3b))  - (repo-ranger[bot])
+- Updated README.md ([3389d68](https://github.com/tj-actions/release-tagger/commit/3389d680a04c3b0a44e4e13a02ef15f003a41a3b))  - (repo-ranger[bot])
 - Updated .github/FUNDING.yml ([b6823c3](https://github.com/tj-actions/release-tagger/commit/b6823c385974a0782d55d1a00ad51275f41873e1))  - (Tonye Jack)
 - Updated renovate.json ([2979d93](https://github.com/tj-actions/release-tagger/commit/2979d93950eab1637ba4fb78ca9a497b242f0e07))  - (Tonye Jack)
-- Updated README.md
- ([681b77a](https://github.com/tj-actions/release-tagger/commit/681b77a2000c810d1d4478c6f8ed5f4f579a6a99))  - (renovate[bot])
+- Updated README.md ([681b77a](https://github.com/tj-actions/release-tagger/commit/681b77a2000c810d1d4478c6f8ed5f4f579a6a99))  - (renovate[bot])
 - Update sync-release-version.yml ([b86a4af](https://github.com/tj-actions/release-tagger/commit/b86a4af7be824c16f9e288e07c53fcb2b691adf5))  - (Tonye Jack)
-- Updated README.md
- ([00c551e](https://github.com/tj-actions/release-tagger/commit/00c551ed585ce14a4ca084b29b784c2211ff0c0c))  - (renovate[bot])
+- Updated README.md ([00c551e](https://github.com/tj-actions/release-tagger/commit/00c551ed585ce14a4ca084b29b784c2211ff0c0c))  - (renovate[bot])
 
 ## <!-- 30 -->📝 Other
 
@@ -72,8 +189,7 @@
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v3.1.0 -> v3.2.0
- ([d9512df](https://github.com/tj-actions/release-tagger/commit/d9512df256a23c131ac903b3adb198500725295e))  - (jackton1)
+- Upgraded from v3.1.0 -> v3.2.0 ([d9512df](https://github.com/tj-actions/release-tagger/commit/d9512df256a23c131ac903b3adb198500725295e))  - (jackton1)
 
 # [3.2.0](https://github.com/tj-actions/release-tagger/compare/v3.1.0...v3.2.0) - (2023-03-14)
 
@@ -93,15 +209,13 @@
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v3.0.0 -> v3.1.0
- ([23fbdb6](https://github.com/tj-actions/release-tagger/commit/23fbdb6efe6390161381a06178f210731db4a620))  - (jackton1)
+- Upgraded from v3.0.0 -> v3.1.0 ([23fbdb6](https://github.com/tj-actions/release-tagger/commit/23fbdb6efe6390161381a06178f210731db4a620))  - (jackton1)
 
 # [3.1.0](https://github.com/tj-actions/release-tagger/compare/v3.0.0...v3.1.0) - (2023-03-10)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([c3e9bfd](https://github.com/tj-actions/release-tagger/commit/c3e9bfd7b6091067f0326ed11079efbd662594b7))  - (jackton1)
+- Updated README.md ([c3e9bfd](https://github.com/tj-actions/release-tagger/commit/c3e9bfd7b6091067f0326ed11079efbd662594b7))  - (jackton1)
 - Update entrypoint.sh ([b63b29d](https://github.com/tj-actions/release-tagger/commit/b63b29d06de6ef22cb5f025aef3454d712bb5298))  - (Tonye Jack)
 - Update action.yml ([bd2e48c](https://github.com/tj-actions/release-tagger/commit/bd2e48cba101c049d6e92fd4d3fa4b71cb576e06))  - (Tonye Jack)
 
@@ -112,8 +226,7 @@
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.6 -> v3
- ([4197cc4](https://github.com/tj-actions/release-tagger/commit/4197cc4e4b2a5ec328e93343694bd70a4603b829))  - (jackton1)
+- Upgraded from v2.1.6 -> v3 ([4197cc4](https://github.com/tj-actions/release-tagger/commit/4197cc4e4b2a5ec328e93343694bd70a4603b829))  - (jackton1)
 
 # [3.0.0](https://github.com/tj-actions/release-tagger/compare/v2.1.6...v3.0.0) - (2023-03-10)
 
@@ -124,8 +237,7 @@
 ## <!-- 26 -->🔄 Update
 
 - Update entrypoint.sh ([b6f668d](https://github.com/tj-actions/release-tagger/commit/b6f668de9d2dc53bd35aef8303220bd9ae9b246e))  - (Tonye Jack)
-- Updated README.md
- ([e87bbb1](https://github.com/tj-actions/release-tagger/commit/e87bbb1188f9f215c96fed0f30a2a774a153d2f6))  - (jackton1)
+- Updated README.md ([e87bbb1](https://github.com/tj-actions/release-tagger/commit/e87bbb1188f9f215c96fed0f30a2a774a153d2f6))  - (jackton1)
 - Update entrypoint.sh ([ac0218f](https://github.com/tj-actions/release-tagger/commit/ac0218fac9278842d1563f68487ca77364c10615))  - (Tonye Jack)
 - Update action.yml ([f23c4af](https://github.com/tj-actions/release-tagger/commit/f23c4af3e1322c9d4761ed3ea9597a98ea23de46))  - (Tonye Jack)
 - Update action.yml ([cc48ce4](https://github.com/tj-actions/release-tagger/commit/cc48ce4374a1c1f50eec180ca7e3971b7a71626b))  - (Tonye Jack)
@@ -147,8 +259,7 @@
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.5 -> v2.1.6
- ([9c10f58](https://github.com/tj-actions/release-tagger/commit/9c10f581884de65adb8c792560f213174a10723f))  - (jackton1)
+- Upgraded from v2.1.5 -> v2.1.6 ([9c10f58](https://github.com/tj-actions/release-tagger/commit/9c10f581884de65adb8c792560f213174a10723f))  - (jackton1)
 
 # [2.1.6](https://github.com/tj-actions/release-tagger/compare/v2.1.5...v2.1.6) - (2023-03-09)
 
@@ -167,8 +278,7 @@
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.4 -> v2.1.5
- ([99589f9](https://github.com/tj-actions/release-tagger/commit/99589f9070f142f79ab5ce0d11c3fbe715b12af1))  - (jackton1)
+- Upgraded from v2.1.4 -> v2.1.5 ([99589f9](https://github.com/tj-actions/release-tagger/commit/99589f9070f142f79ab5ce0d11c3fbe715b12af1))  - (jackton1)
 
 # [2.1.5](https://github.com/tj-actions/release-tagger/compare/v2.1.4...v2.1.5) - (2023-03-07)
 
@@ -181,8 +291,7 @@
 - Update entrypoint.sh
 
 Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([ddbafd2](https://github.com/tj-actions/release-tagger/commit/ddbafd22db231912fe65efb5e0b9eb4e358fba57))  - (Tonye Jack)
-- Updated README.md
- ([62c8c42](https://github.com/tj-actions/release-tagger/commit/62c8c42ae1b16ce17b6c70b649764f33f3751194))  - (jackton1)
+- Updated README.md ([62c8c42](https://github.com/tj-actions/release-tagger/commit/62c8c42ae1b16ce17b6c70b649764f33f3751194))  - (jackton1)
 - Updated .github/workflows/update-readme.yml ([28ff6bf](https://github.com/tj-actions/release-tagger/commit/28ff6bfda29f8308e5eb861d518401dd53e64b35))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -202,8 +311,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.3 -> v2.1.4
- ([1e40330](https://github.com/tj-actions/release-tagger/commit/1e403307e039827e58e9377955818211226fafd3))  - (jackton1)
+- Upgraded from v2.1.3 -> v2.1.4 ([1e40330](https://github.com/tj-actions/release-tagger/commit/1e403307e039827e58e9377955818211226fafd3))  - (jackton1)
 
 # [2.1.4](https://github.com/tj-actions/release-tagger/compare/v2.1.3...v2.1.4) - (2022-12-20)
 
@@ -218,8 +326,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.2 -> v2.1.3
- ([099711a](https://github.com/tj-actions/release-tagger/commit/099711a29dbaf36dced9a0c415685471ce80848d))  - (jackton1)
+- Upgraded from v2.1.2 -> v2.1.3 ([099711a](https://github.com/tj-actions/release-tagger/commit/099711a29dbaf36dced9a0c415685471ce80848d))  - (jackton1)
 
 # [2.1.3](https://github.com/tj-actions/release-tagger/compare/v2.1.2...v2.1.3) - (2022-12-19)
 
@@ -233,8 +340,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.1 -> v2.1.2
- ([7ce4350](https://github.com/tj-actions/release-tagger/commit/7ce4350a050e306e85d452fff3a0d93feb1f8d39))  - (jackton1)
+- Upgraded from v2.1.1 -> v2.1.2 ([7ce4350](https://github.com/tj-actions/release-tagger/commit/7ce4350a050e306e85d452fff3a0d93feb1f8d39))  - (jackton1)
 
 # [2.1.2](https://github.com/tj-actions/release-tagger/compare/v2.1.1...v2.1.2) - (2022-12-19)
 
@@ -251,8 +357,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.1.0 -> v2.1.1
- ([d27c3b8](https://github.com/tj-actions/release-tagger/commit/d27c3b8ad418cdeafda3de663842781863511e00))  - (jackton1)
+- Upgraded from v2.1.0 -> v2.1.1 ([d27c3b8](https://github.com/tj-actions/release-tagger/commit/d27c3b8ad418cdeafda3de663842781863511e00))  - (jackton1)
 
 # [2.1.1](https://github.com/tj-actions/release-tagger/compare/v2.1.0...v2.1.1) - (2022-12-18)
 
@@ -262,8 +367,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.6 -> v2.1.0
- ([d409c70](https://github.com/tj-actions/release-tagger/commit/d409c70bed651812ccab16f380db92c0ce064723))  - (jackton1)
+- Upgraded from v2.0.6 -> v2.1.0 ([d409c70](https://github.com/tj-actions/release-tagger/commit/d409c70bed651812ccab16f380db92c0ce064723))  - (jackton1)
 
 # [2.1.0](https://github.com/tj-actions/release-tagger/compare/v2.0.6...v2.1.0) - (2022-12-18)
 
@@ -273,14 +377,12 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 16 -->➕ Add
 
-- Add clean up step
- ([cb2c44c](https://github.com/tj-actions/release-tagger/commit/cb2c44c7ef39e058dae68a6a9b162af12a1740d8))  - (Tonye Jack)
+- Add clean up step ([cb2c44c](https://github.com/tj-actions/release-tagger/commit/cb2c44c7ef39e058dae68a6a9b162af12a1740d8))  - (Tonye Jack)
 
 ## <!-- 26 -->🔄 Update
 
 - Update entrypoint.sh ([fed6bf2](https://github.com/tj-actions/release-tagger/commit/fed6bf20df32a52d10c69e022b439103b1c14232))  - (Tonye Jack)
-- Updated README.md
- ([f2b3a03](https://github.com/tj-actions/release-tagger/commit/f2b3a034bba6e7e2228479d9ac828a692f2f9428))  - (renovate[bot])
+- Updated README.md ([f2b3a03](https://github.com/tj-actions/release-tagger/commit/f2b3a034bba6e7e2228479d9ac828a692f2f9428))  - (renovate[bot])
 - Update sync-release-version.yml ([1fa00c8](https://github.com/tj-actions/release-tagger/commit/1fa00c845d5e3b504c08f30fa5ab9995b4a2d914))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -298,8 +400,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.5 -> v2.0.6
- ([1b0f720](https://github.com/tj-actions/release-tagger/commit/1b0f7204b105db28f832fd558993c263afe2efed))  - (jackton1)
+- Upgraded from v2.0.5 -> v2.0.6 ([1b0f720](https://github.com/tj-actions/release-tagger/commit/1b0f7204b105db28f832fd558993c263afe2efed))  - (jackton1)
 
 # [2.0.6](https://github.com/tj-actions/release-tagger/compare/v2.0.5...v2.0.6) - (2022-12-04)
 
@@ -318,16 +419,14 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.4 -> v2.0.5
- ([4b7edfa](https://github.com/tj-actions/release-tagger/commit/4b7edfad57d169fad521a344dc1aea23cea841fd))  - (jackton1)
+- Upgraded from v2.0.4 -> v2.0.5 ([4b7edfa](https://github.com/tj-actions/release-tagger/commit/4b7edfad57d169fad521a344dc1aea23cea841fd))  - (jackton1)
 
 # [2.0.5](https://github.com/tj-actions/release-tagger/compare/v2.0.4...v2.0.5) - (2022-11-15)
 
 ## <!-- 26 -->🔄 Update
 
 - Update README.md ([9502134](https://github.com/tj-actions/release-tagger/commit/95021341d9b9090ad74840f7e485f41014d8504c))  - (Tonye Jack)
-- Updated README.md
- ([53356ac](https://github.com/tj-actions/release-tagger/commit/53356acf188b074d3d4a37d518513b7ad5e420bf))  - (renovate[bot])
+- Updated README.md ([53356ac](https://github.com/tj-actions/release-tagger/commit/53356acf188b074d3d4a37d518513b7ad5e420bf))  - (renovate[bot])
 - Updated .github/ISSUE_TEMPLATE/bug_report.yaml ([1e5e899](https://github.com/tj-actions/release-tagger/commit/1e5e8993e004e0346e5cde6fdc477a0ed601fcb4))  - (Tonye Jack)
 - Updated .github/workflows/greetings.yml ([300eee7](https://github.com/tj-actions/release-tagger/commit/300eee742d4d299d9b24cdb2c6ab7d7a90624353))  - (Tonye Jack)
 
@@ -349,15 +448,13 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.3 -> v2.0.4
- ([b7d2bd8](https://github.com/tj-actions/release-tagger/commit/b7d2bd82c25f0039eacb6454c8a2877d838755cd))  - (jackton1)
+- Upgraded from v2.0.3 -> v2.0.4 ([b7d2bd8](https://github.com/tj-actions/release-tagger/commit/b7d2bd82c25f0039eacb6454c8a2877d838755cd))  - (jackton1)
 
 # [2.0.4](https://github.com/tj-actions/release-tagger/compare/v2.0.3...v2.0.4) - (2022-09-25)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([6d74797](https://github.com/tj-actions/release-tagger/commit/6d74797e8bee8d07d035cf39d7008d77c485d56e))  - (jackton1)
+- Updated README.md ([6d74797](https://github.com/tj-actions/release-tagger/commit/6d74797e8bee8d07d035cf39d7008d77c485d56e))  - (jackton1)
 - Update README.md ([e968231](https://github.com/tj-actions/release-tagger/commit/e9682318e959edcab6d21a27ed177cdd6ad1d894))  - (Tonye Jack)
 - Update README.md ([dfaad4f](https://github.com/tj-actions/release-tagger/commit/dfaad4fa2d712094c654cb97d1416dce714e5065))  - (Tonye Jack)
 
@@ -374,8 +471,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.2 -> v2.0.3
- ([57407ed](https://github.com/tj-actions/release-tagger/commit/57407ed7568a0c641daac17a069c15fa386f68ba))  - (jackton1)
+- Upgraded from v2.0.2 -> v2.0.3 ([57407ed](https://github.com/tj-actions/release-tagger/commit/57407ed7568a0c641daac17a069c15fa386f68ba))  - (jackton1)
 
 # [2.0.3](https://github.com/tj-actions/release-tagger/compare/v2.0.2...v2.0.3) - (2022-09-23)
 
@@ -385,8 +481,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 11 -->⏪ Reverts
 
-- Revert "feat: add support for adding major release description to the release notes"
- ([b1ed4ea](https://github.com/tj-actions/release-tagger/commit/b1ed4ea75f195c1f7cdd4b07a00e9527cc51a56c))  - (Tonye Jack)
+- Revert "feat: add support for adding major release description to the release notes" ([b1ed4ea](https://github.com/tj-actions/release-tagger/commit/b1ed4ea75f195c1f7cdd4b07a00e9527cc51a56c))  - (Tonye Jack)
 
 ## <!-- 16 -->➕ Add
 
@@ -395,8 +490,7 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([9921772](https://github.com/tj-actions/release-tagger/commit/9921772d42149786b4550b124edba34b746a6e0d))  - (renovate[bot])
+- Updated README.md ([9921772](https://github.com/tj-actions/release-tagger/commit/9921772d42149786b4550b124edba34b746a6e0d))  - (renovate[bot])
 - Update peter-evans/create-pull-request action to v4.1.2 ([469c7df](https://github.com/tj-actions/release-tagger/commit/469c7df9a2735a84e4518f5f4aed69cfee1fb7ab))  - (renovate[bot])
 - Update README.md ([cdc6c12](https://github.com/tj-actions/release-tagger/commit/cdc6c1298551b77a9492237c4aafeb910c18c646))  - (Tonye Jack)
 - Update codacy/codacy-analysis-cli-action action to v4.2.0 ([cc41704](https://github.com/tj-actions/release-tagger/commit/cc417049694ba8a43bc0c947b69cc3df9014abf2))  - (renovate[bot])
@@ -423,16 +517,14 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.1 -> v2.0.2
- ([bb198b4](https://github.com/tj-actions/release-tagger/commit/bb198b4713eac979a370ed5c83dc5f4e2382b377))  - (jackton1)
+- Upgraded from v2.0.1 -> v2.0.2 ([bb198b4](https://github.com/tj-actions/release-tagger/commit/bb198b4713eac979a370ed5c83dc5f4e2382b377))  - (jackton1)
 
 # [2.0.2](https://github.com/tj-actions/release-tagger/compare/v2.0.1...v2.0.2) - (2022-09-19)
 
 ## <!-- 17 -->➖ Remove
 
 - Delete RELEASE_NOTES.md ([7ab6af8](https://github.com/tj-actions/release-tagger/commit/7ab6af821d3a28069dacf3ef004bc61919c49bfc))  - (Tonye Jack)
-- Remove release note
- ([9dda87c](https://github.com/tj-actions/release-tagger/commit/9dda87c3ae86dfb210eaaeeff105d73afff1e77e))  - (Tonye Jack)
+- Remove release note ([9dda87c](https://github.com/tj-actions/release-tagger/commit/9dda87c3ae86dfb210eaaeeff105d73afff1e77e))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
@@ -440,15 +532,13 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v2.0.0 -> v2.0.1
- ([3d66fc4](https://github.com/tj-actions/release-tagger/commit/3d66fc43bfd0633fa3aac8cc38c59f024d4e302e))  - (jackton1)
+- Upgraded from v2.0.0 -> v2.0.1 ([3d66fc4](https://github.com/tj-actions/release-tagger/commit/3d66fc43bfd0633fa3aac8cc38c59f024d4e302e))  - (jackton1)
 
 # [2.0.1](https://github.com/tj-actions/release-tagger/compare/v2.0.0...v2.0.1) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated sync-release-version.yml
- ([e1a5486](https://github.com/tj-actions/release-tagger/commit/e1a5486c775f1092ccffde4465cbc5f591eb19f6))  - (Tonye Jack)
+- Updated sync-release-version.yml ([e1a5486](https://github.com/tj-actions/release-tagger/commit/e1a5486c775f1092ccffde4465cbc5f591eb19f6))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
@@ -456,15 +546,13 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1 -> v2.0.0
- ([f3012c6](https://github.com/tj-actions/release-tagger/commit/f3012c67797fd070f0966b83b1607f44c79b0d01))  - (jackton1)
+- Upgraded from v1 -> v2.0.0 ([f3012c6](https://github.com/tj-actions/release-tagger/commit/f3012c67797fd070f0966b83b1607f44c79b0d01))  - (jackton1)
 
 # [2.0.0](https://github.com/tj-actions/release-tagger/compare/v1.1.3...v2.0.0) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
-- Update test.yml
- ([8951594](https://github.com/tj-actions/release-tagger/commit/89515943bc11fa6a738dad0bbc1a12f2f5ac0978))  - (Tonye Jack)
+- Update test.yml ([8951594](https://github.com/tj-actions/release-tagger/commit/89515943bc11fa6a738dad0bbc1a12f2f5ac0978))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
@@ -472,16 +560,14 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.1.2 -> v1.1.3
- ([a73e2c4](https://github.com/tj-actions/release-tagger/commit/a73e2c4188006b7c7193ea4f8c1ca4240da3c016))  - (jackton1)
+- Upgraded from v1.1.2 -> v1.1.3 ([a73e2c4](https://github.com/tj-actions/release-tagger/commit/a73e2c4188006b7c7193ea4f8c1ca4240da3c016))  - (jackton1)
 
 # [1.1.3](https://github.com/tj-actions/release-tagger/compare/v1.1.2...v1.1.3) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
 - Update sync-release-version.yml ([41305ff](https://github.com/tj-actions/release-tagger/commit/41305ff3eaa7698cd8486e95170009e01a84618f))  - (Tonye Jack)
-- Update sync-release-version.
- ([a1ba6d5](https://github.com/tj-actions/release-tagger/commit/a1ba6d53b764667262c57de9322f419fa8a0318a))  - (Tonye Jack)
+- Update sync-release-version. ([a1ba6d5](https://github.com/tj-actions/release-tagger/commit/a1ba6d53b764667262c57de9322f419fa8a0318a))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
@@ -489,15 +575,13 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.1.1 -> v1.1.2
- ([8026127](https://github.com/tj-actions/release-tagger/commit/80261270c5a6c60a9ce9953a297fc862ef8140d6))  - (jackton1)
+- Upgraded from v1.1.1 -> v1.1.2 ([8026127](https://github.com/tj-actions/release-tagger/commit/80261270c5a6c60a9ce9953a297fc862ef8140d6))  - (jackton1)
 
 # [1.1.2](https://github.com/tj-actions/release-tagger/compare/v1.1.1...v1.1.2) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated test.
- ([939f090](https://github.com/tj-actions/release-tagger/commit/939f090f57886cda949fa45a7e7627ae6a487286))  - (Tonye Jack)
+- Updated test. ([939f090](https://github.com/tj-actions/release-tagger/commit/939f090f57886cda949fa45a7e7627ae6a487286))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
@@ -505,23 +589,17 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.1.0 -> v1.1.1
- ([54458a7](https://github.com/tj-actions/release-tagger/commit/54458a761e57f726ef02863a2b6cf0e27de0b5e6))  - (jackton1)
+- Upgraded from v1.1.0 -> v1.1.1 ([54458a7](https://github.com/tj-actions/release-tagger/commit/54458a761e57f726ef02863a2b6cf0e27de0b5e6))  - (jackton1)
 
 # [1.1.1](https://github.com/tj-actions/release-tagger/compare/v1.1.0...v1.1.1) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated action
- ([2ddba54](https://github.com/tj-actions/release-tagger/commit/2ddba54fb8b8898bc9e6f5a0bbb8cb24fda180f8))  - (Tonye Jack)
-- Updated action
- ([3506537](https://github.com/tj-actions/release-tagger/commit/350653740eed3d4be82b34752280fe5ecdf3e563))  - (Tonye Jack)
-- Updated action
- ([95159b5](https://github.com/tj-actions/release-tagger/commit/95159b516128f668a4225fc74f1c5ad08d461289))  - (Tonye Jack)
-- Updated action
- ([90206dc](https://github.com/tj-actions/release-tagger/commit/90206dc51e19b91076b77c468300f6fab08afac7))  - (Tonye Jack)
-- Updated action
- ([b08e620](https://github.com/tj-actions/release-tagger/commit/b08e6202198511c264361673c4a51672522b44a4))  - (Tonye Jack)
+- Updated action ([2ddba54](https://github.com/tj-actions/release-tagger/commit/2ddba54fb8b8898bc9e6f5a0bbb8cb24fda180f8))  - (Tonye Jack)
+- Updated action ([3506537](https://github.com/tj-actions/release-tagger/commit/350653740eed3d4be82b34752280fe5ecdf3e563))  - (Tonye Jack)
+- Updated action ([95159b5](https://github.com/tj-actions/release-tagger/commit/95159b516128f668a4225fc74f1c5ad08d461289))  - (Tonye Jack)
+- Updated action ([90206dc](https://github.com/tj-actions/release-tagger/commit/90206dc51e19b91076b77c468300f6fab08afac7))  - (Tonye Jack)
+- Updated action ([b08e620](https://github.com/tj-actions/release-tagger/commit/b08e6202198511c264361673c4a51672522b44a4))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
@@ -529,16 +607,14 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.2 -> v1.1.0
- ([63bce5f](https://github.com/tj-actions/release-tagger/commit/63bce5fcc9ff62ae69556dd67ec69c479cc93565))  - (jackton1)
+- Upgraded from v1.0.2 -> v1.1.0 ([63bce5f](https://github.com/tj-actions/release-tagger/commit/63bce5fcc9ff62ae69556dd67ec69c479cc93565))  - (jackton1)
 
 # [1.1.0](https://github.com/tj-actions/release-tagger/compare/v1.0.2...v1.1.0) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
 - Update README.md ([b5b6e60](https://github.com/tj-actions/release-tagger/commit/b5b6e6029cf2f127a60ef6ac55baeb350f1f5c34))  - (Tonye Jack)
-- Updated README.md
- ([01dad4d](https://github.com/tj-actions/release-tagger/commit/01dad4d01e33024bfa744d503add5b964221931c))  - (jackton1)
+- Updated README.md ([01dad4d](https://github.com/tj-actions/release-tagger/commit/01dad4d01e33024bfa744d503add5b964221931c))  - (jackton1)
 
 ## <!-- 30 -->📝 Other
 
@@ -548,34 +624,25 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.1 -> v1.0.2
- ([94c8279](https://github.com/tj-actions/release-tagger/commit/94c8279646f297450d73b490eec5fef0ed52b298))  - (jackton1)
+- Upgraded from v1.0.1 -> v1.0.2 ([94c8279](https://github.com/tj-actions/release-tagger/commit/94c8279646f297450d73b490eec5fef0ed52b298))  - (jackton1)
+- Upgraded from v1.0.0 -> v1.0.1 ([7130b7f](https://github.com/tj-actions/release-tagger/commit/7130b7fe3233641b45e62b2dac29cd8ece056790))  - (jackton1)
 
 # [1.0.2](https://github.com/tj-actions/release-tagger/compare/v1.0.1...v1.0.2) - (2022-09-19)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated action.yml
- ([15f0a78](https://github.com/tj-actions/release-tagger/commit/15f0a7814fb3267081c624ff3b4939907540b1e5))  - (Tonye Jack)
-- Updated action.yml
- ([c80edb2](https://github.com/tj-actions/release-tagger/commit/c80edb21abde184780c37f9dfe196149ae3ba90f))  - (Tonye Jack)
-
-## <!-- 9 -->⬆️ Upgrades
-
-- Upgraded from v1.0.0 -> v1.0.1
- ([7130b7f](https://github.com/tj-actions/release-tagger/commit/7130b7fe3233641b45e62b2dac29cd8ece056790))  - (jackton1)
+- Updated action.yml ([15f0a78](https://github.com/tj-actions/release-tagger/commit/15f0a7814fb3267081c624ff3b4939907540b1e5))  - (Tonye Jack)
+- Updated action.yml ([c80edb2](https://github.com/tj-actions/release-tagger/commit/c80edb21abde184780c37f9dfe196149ae3ba90f))  - (Tonye Jack)
 
 # [1.0.1](https://github.com/tj-actions/release-tagger/compare/v1.0.0...v1.0.1) - (2022-09-19)
 
 ## <!-- 16 -->➕ Add
 
-- Added support to create or edit release.
- ([14d0aaf](https://github.com/tj-actions/release-tagger/commit/14d0aaf6b4bd0c69ee4f83281e1c5708e49881c5))  - (Tonye Jack)
+- Added support to create or edit release. ([14d0aaf](https://github.com/tj-actions/release-tagger/commit/14d0aaf6b4bd0c69ee4f83281e1c5708e49881c5))  - (Tonye Jack)
 
 ## <!-- 26 -->🔄 Update
 
-- Update README.md
- ([70fbec2](https://github.com/tj-actions/release-tagger/commit/70fbec235883324b0fc844bc4b6f8126791805c0))  - (Tonye Jack)
+- Update README.md ([70fbec2](https://github.com/tj-actions/release-tagger/commit/70fbec235883324b0fc844bc4b6f8126791805c0))  - (Tonye Jack)
 - Update test.yml ([567424b](https://github.com/tj-actions/release-tagger/commit/567424b30eee05adc6c76d409d2233405c824018))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -584,38 +651,29 @@ Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.0 -> v1.0.0
- ([6288dcb](https://github.com/tj-actions/release-tagger/commit/6288dcb88f2a89a3582966a66287dbfe313b841e))  - (jackton1)
+- Upgraded from v1.0.0 -> v1.0.0 ([6288dcb](https://github.com/tj-actions/release-tagger/commit/6288dcb88f2a89a3582966a66287dbfe313b841e))  - (jackton1)
 
 # [1.0.0](https://github.com/tj-actions/release-tagger/tree/v1.0.0) - (2022-09-19)
 
 ## <!-- 14 -->🎉 Initial Commit
 
-- Initial commit.
- ([fe810e1](https://github.com/tj-actions/release-tagger/commit/fe810e1e5e75ff1e37683744df36ea87db79fbbe))  - (Tonye Jack)
+- Initial commit. ([fe810e1](https://github.com/tj-actions/release-tagger/commit/fe810e1e5e75ff1e37683744df36ea87db79fbbe))  - (Tonye Jack)
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([fc8f48a](https://github.com/tj-actions/release-tagger/commit/fc8f48a538835c30a20f45bcfeda44e8c8c43d52))  - (jackton1)
-- Updated action.yml and entrypoint.sh
- ([07ecfdd](https://github.com/tj-actions/release-tagger/commit/07ecfdd77341dce1b485295e5fc754ebf06726fc))  - (Tonye Jack)
-- Updated warning message
- ([b05b10d](https://github.com/tj-actions/release-tagger/commit/b05b10dccb2e4e5d6f1274cca503a0d6242acc7a))  - (Tonye Jack)
-- Updated README.md
- ([07ba95a](https://github.com/tj-actions/release-tagger/commit/07ba95a515605f7bf4172a27bd0c76a407dc6a2d))  - (jackton1)
+- Updated README.md ([fc8f48a](https://github.com/tj-actions/release-tagger/commit/fc8f48a538835c30a20f45bcfeda44e8c8c43d52))  - (jackton1)
+- Updated action.yml and entrypoint.sh ([07ecfdd](https://github.com/tj-actions/release-tagger/commit/07ecfdd77341dce1b485295e5fc754ebf06726fc))  - (Tonye Jack)
+- Updated warning message ([b05b10d](https://github.com/tj-actions/release-tagger/commit/b05b10dccb2e4e5d6f1274cca503a0d6242acc7a))  - (Tonye Jack)
+- Updated README.md ([07ba95a](https://github.com/tj-actions/release-tagger/commit/07ba95a515605f7bf4172a27bd0c76a407dc6a2d))  - (jackton1)
 - Update README.md ([cce2115](https://github.com/tj-actions/release-tagger/commit/cce21153db7001aef0dcfbd58d4cc4e10c328d86))  - (Tonye Jack)
 - Update README.md ([017fb7b](https://github.com/tj-actions/release-tagger/commit/017fb7be4dd177d109f74473af55edb725823494))  - (Tonye Jack)
-- Updated README.md
- ([7b1e082](https://github.com/tj-actions/release-tagger/commit/7b1e08265c2e90e4c82742dfba42b093e3f97588))  - (jackton1)
-- Update action
- ([7f2fddc](https://github.com/tj-actions/release-tagger/commit/7f2fddc7634607dc6adfea85c033e4b3a7358b0f))  - (Tonye Jack)
+- Updated README.md ([7b1e082](https://github.com/tj-actions/release-tagger/commit/7b1e08265c2e90e4c82742dfba42b093e3f97588))  - (jackton1)
+- Update action ([7f2fddc](https://github.com/tj-actions/release-tagger/commit/7f2fddc7634607dc6adfea85c033e4b3a7358b0f))  - (Tonye Jack)
 - Update tj-actions/github-changelog-generator action to v1.15 ([185f011](https://github.com/tj-actions/release-tagger/commit/185f011aff020053f1c78612c46680a0a057f529))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.4.1 ([b648d65](https://github.com/tj-actions/release-tagger/commit/b648d65756aed3fc6695d1f9ccd564305cc9811d))  - (renovate[bot])
 - Update cirrus-actions/rebase action to v1.7 ([7499f4c](https://github.com/tj-actions/release-tagger/commit/7499f4c53f88541857fafaa11dd8e0baad679671))  - (renovate[bot])
 - Update README.md ([6490bb0](https://github.com/tj-actions/release-tagger/commit/6490bb022e7685136f6b68ac6dd7dab94b1304f0))  - (Tonye Jack)
-- Updated README.md
- ([13cc687](https://github.com/tj-actions/release-tagger/commit/13cc68735d140976b25e0a9c38ec66209c9a0edc))  - (jackton1)
+- Updated README.md ([13cc687](https://github.com/tj-actions/release-tagger/commit/13cc68735d140976b25e0a9c38ec66209c9a0edc))  - (jackton1)
 - Update tj-actions/verify-changed-files action to v11 ([831c756](https://github.com/tj-actions/release-tagger/commit/831c7564ec8e37bf071128f2ff2cdca21acbd6dc))  - (renovate[bot])
 
 ## <!-- 30 -->📝 Other
