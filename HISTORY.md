@@ -1,5 +1,30 @@
 # Changelog
 
+# [6.0.0](https://github.com/tj-actions/release-tagger/compare/v5.0.1...v6.0.0) - (2026-02-17)
+
+## <!-- 0 -->🚀 Features
+
+- Add retag_major input for version tagging ([#184](https://github.com/tj-actions/release-tagger/issues/184)) ([4570c17](https://github.com/tj-actions/release-tagger/commit/4570c17edb46025bd16cdcc9ee5173de1f7d1cd9))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#185](https://github.com/tj-actions/release-tagger/issues/185))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([edf6289](https://github.com/tj-actions/release-tagger/commit/edf6289ce260a5210863a9f1c0a2c1306f71525f))  - (github-actions[bot])
+
+## <!-- 30 -->📝 Other
+
+- Replace 'Run test' with 'Run remark' step ([83cc71d](https://github.com/tj-actions/release-tagger/commit/83cc71d305c3b292120491bab68d6e323e95bad7))  - (Tonye Jack)
+- Modify update-readme workflow for permissions and token
+
+Updated permissions and token usage in the workflow. ([30bcbb8](https://github.com/tj-actions/release-tagger/commit/30bcbb84a3eebdd8a4e42d3be5ed43687b43924a))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v5.0.0 -> v5.0.1 ([#183](https://github.com/tj-actions/release-tagger/issues/183))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([26a007f](https://github.com/tj-actions/release-tagger/commit/26a007f0ba9381c1379aae3ed0a3c11d5c5600fe))  - (github-actions[bot])
+
 # [5.0.1](https://github.com/tj-actions/release-tagger/compare/v5.0.0...v5.0.1) - (2026-01-20)
 
 ## <!-- 26 -->🔄 Update
