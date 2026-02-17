@@ -32,7 +32,7 @@ done
 gh release download "$NEW_TAG" --dir "$RELEASE_ASSETS_DIR" || true
 
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
-  if gh release view "$MAJOR_VERSION" > /dev/null 2>&1 && [[ "$INPUTS_RETAG_MAJOR" == "true" ]]; then
+  if gh release view "$MAJOR_VERSION" > /dev/null 2>&1; then
     # Update the release notes
     gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
 
@@ -41,9 +41,11 @@ if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
       gh release upload --clobber "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
     fi
 
-    # Re-tag the major version using the latest tag
-    git tag -f "$MAJOR_VERSION" "$NEW_TAG"
-    git push -f "$REMOTE_URL" "$MAJOR_VERSION"
+    if [[ "$INPUTS_RETAG_MAJOR" == "true" ]]; then
+      # Re-tag the major version using the latest tag
+      git tag -f "$MAJOR_VERSION" "$NEW_TAG"
+      git push -f "$REMOTE_URL" "$MAJOR_VERSION"
+    fi
   else
     if [[ -n "$(find "$RELEASE_ASSETS_DIR" -type f)" ]]; then
       gh release create "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION" "$RELEASE_ASSETS_DIR"/*
