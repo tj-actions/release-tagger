@@ -1,5 +1,24 @@
 # Changelog
 
+# [6.0.6](https://github.com/tj-actions/release-tagger/compare/v6.0.5...v6.0.6) - (2026-02-17)
+
+## <!-- 26 -->🔄 Update
+
+- Update release-tagger version to v6.0.5 ([970a1f5](https://github.com/tj-actions/release-tagger/commit/970a1f5f827a7b90902b0adc904f3bb70c1074e7))  - (Tonye Jack)
+- Updated README.md ([#198](https://github.com/tj-actions/release-tagger/issues/198))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([d94ae80](https://github.com/tj-actions/release-tagger/commit/d94ae806c8607ccf6e7a6f0e1047439eca23358a))  - (github-actions[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v6.0.4 -> v6.0.5 ([#199](https://github.com/tj-actions/release-tagger/issues/199))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Tonye Jack <jtonye@ymail.com> ([3e86635](https://github.com/tj-actions/release-tagger/commit/3e86635b5e74db740bc5d89aa0a8d4b9de4053c7))  - (github-actions[bot])
+- Upgraded from v6.0.3 -> v6.0.4 ([#196](https://github.com/tj-actions/release-tagger/issues/196))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([d877eb8](https://github.com/tj-actions/release-tagger/commit/d877eb87f1c4f3d5faad17515df7291e61df769c))  - (github-actions[bot])
+
 # [6.0.5](https://github.com/tj-actions/release-tagger/compare/v6.0.4...v6.0.5) - (2026-02-17)
 
 ## <!-- 2 -->🚜 Refactor
