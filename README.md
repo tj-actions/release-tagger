@@ -42,12 +42,34 @@ jobs:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|                                         INPUT                                          |  TYPE  | REQUIRED |         DEFAULT         |                                                                                                                                                     DESCRIPTION                                                                                                                                                      |
-|----------------------------------------------------------------------------------------|--------|----------|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                <a name="input_gh_token"></a>[gh\_token](#input_gh_token)                | string |  false   | `"${{ github.token }}"` |                                                                                                                                                   Github CLI token                                                                                                                                                   |
-| <a name="input_release_notes_file"></a>[release\_notes\_file](#input_release_notes_file) | string |   true   |  `"RELEASE_NOTES.md"`   |                                                                                                                                         File to write release notes <br>to                                                                                                                                           |
-|           <a name="input_retag_major"></a>[retag\_major](#input_retag_major)            | string |   true   |        `"false"`        |                                                                                                            Enable retagging major version tags. <br>e.g v2.0.0 -> v2.0.1 (Retags v2 pointing to v2.0.1)                                                                                                              |
-|                    <a name="input_token"></a>[token](#input_token)                     | string |  false   | `"${{ github.token }}"` | [GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) or a repo scoped <br>[Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)  |
+```yaml
+- uses: tj-actions/release-tagger@edf6289ce260a5210863a9f1c0a2c1306f71525f # v6
+  id: release-tagger
+  with:
+    # Github CLI token
+    # Type: string
+    # Default: "${{ github.token }}"
+    gh_token: ''
+
+    # File to write release notes 
+    # to 
+    # Type: string
+    # Default: "RELEASE_NOTES.md"
+    release_notes_file: ''
+
+    # Enable retagging major version tags. 
+    # e.g v2.0.0 -> v2.0.1 (Retags v2 pointing to v2.0.1) 
+    # Type: boolean
+    # Default: "false"
+    retag_major: ''
+
+    # [GITHUB\_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) or a repo scoped 
+    # [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token) 
+    # Type: string
+    # Default: "${{ github.token }}"
+    token: ''
+
+```
 
 <!-- AUTO-DOC-INPUT:END -->
 
