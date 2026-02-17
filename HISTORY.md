@@ -1,5 +1,19 @@
 # Changelog
 
+# [6.0.3](https://github.com/tj-actions/release-tagger/compare/v6.0.2...v6.0.3) - (2026-02-17)
+
+## <!-- 26 -->🔄 Update
+
+- Update sync-release-version.yml to remove 'only_major'
+
+Remove 'only_major' option from sync-release-version action. ([2c6b8d2](https://github.com/tj-actions/release-tagger/commit/2c6b8d20fc4f1ae1d710d5a1e5fdaaf082a4372c))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v6.0.1 -> v6.0.2 ([#192](https://github.com/tj-actions/release-tagger/issues/192))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([183adca](https://github.com/tj-actions/release-tagger/commit/183adcab4b0d7a5c1e33d5e82940e1758f2ce303))  - (github-actions[bot])
+
 # [6.0.2](https://github.com/tj-actions/release-tagger/compare/v6.0.1...v6.0.2) - (2026-02-17)
 
 ## <!-- 17 -->➖ Remove
