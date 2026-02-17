@@ -1,5 +1,11 @@
 # Changelog
 
+# [6.0.5](https://github.com/tj-actions/release-tagger/compare/v6.0.4...v6.0.5) - (2026-02-17)
+
+## <!-- 2 -->🚜 Refactor
+
+- Release notes and asset upload logic ([#197](https://github.com/tj-actions/release-tagger/issues/197)) ([3224aa8](https://github.com/tj-actions/release-tagger/commit/3224aa89142b059e8926c1ef3db77323967ee5ef))  - (Tonye Jack)
+
 # [6.0.4](https://github.com/tj-actions/release-tagger/compare/v6.0.3...v6.0.4) - (2026-02-17)
 
 ## <!-- 26 -->🔄 Update
