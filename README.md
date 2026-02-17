@@ -35,7 +35,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run release-tagger
-        uses: tj-actions/release-tagger@183adcab4b0d7a5c1e33d5e82940e1758f2ce303 # v6.0.3
+        uses: tj-actions/release-tagger@8ad39357cb2cfd6e0d187b4910c8a476e3f9ab9c # v6.0.4
 ```
 
 ## Inputs
@@ -43,7 +43,7 @@ jobs:
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
 ```yaml
-- uses: tj-actions/release-tagger@183adcab4b0d7a5c1e33d5e82940e1758f2ce303 # v6.0.3
+- uses: tj-actions/release-tagger@8ad39357cb2cfd6e0d187b4910c8a476e3f9ab9c # v6.0.4
   id: release-tagger
   with:
     # Github CLI token
