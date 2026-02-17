@@ -1,5 +1,35 @@
 # Changelog
 
+# [6.0.1](https://github.com/tj-actions/release-tagger/compare/v6.0.0...v6.0.1) - (2026-02-17)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Release tagging and notes update logic ([#188](https://github.com/tj-actions/release-tagger/issues/188)) ([bba2aed](https://github.com/tj-actions/release-tagger/commit/bba2aede4b911232a5a359a2458697253d2b6450))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Remove use_tag_commit_hash from auto-doc step
+
+Removed the option to use tag commit hash in auto-doc step. ([e86f40c](https://github.com/tj-actions/release-tagger/commit/e86f40cdcf07eb44a0ea8fb016177da04a5a6190))  - (Tonye Jack)
+- Remove use_code_blocks option from auto-doc step ([7871ccb](https://github.com/tj-actions/release-tagger/commit/7871ccb0fee8a5be2a0ce8b482e09f70daaf9d57))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update release-tagger action to version 6.0.0 ([21065fa](https://github.com/tj-actions/release-tagger/commit/21065faa9bf901d18c0cafe3f1377271762a3b90))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- Enable use of tag commit hash in sync-release-version ([29f8aee](https://github.com/tj-actions/release-tagger/commit/29f8aeea9b38c6626f15b2dfc05e905436462eb0))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgrade auto-doc action and enhance configuration
+
+Updated auto-doc action to version v3.6.0 and added new options. ([5acc445](https://github.com/tj-actions/release-tagger/commit/5acc445412d09c34c939afa47dd6d9086bfe3b51))  - (Tonye Jack)
+- Upgraded from v5.0.1 -> v6 ([#186](https://github.com/tj-actions/release-tagger/issues/186))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([5598f89](https://github.com/tj-actions/release-tagger/commit/5598f89fcb034202bb6a5ab431bac06745d74db4))  - (github-actions[bot])
+
 # [6.0.0](https://github.com/tj-actions/release-tagger/compare/v5.0.1...v6.0.0) - (2026-02-17)
 
 ## <!-- 0 -->🚀 Features
