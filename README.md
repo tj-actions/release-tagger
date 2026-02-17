@@ -43,7 +43,7 @@ jobs:
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
 ```yaml
-- uses: tj-actions/release-tagger@8ad39357cb2cfd6e0d187b4910c8a476e3f9ab9c # v6.0.4
+- uses: tj-actions/release-tagger@3224aa89142b059e8926c1ef3db77323967ee5ef # v6.0.5
   id: release-tagger
   with:
     # Github CLI token
