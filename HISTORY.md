@@ -1,5 +1,40 @@
 # Changelog
 
+# [6.0.2](https://github.com/tj-actions/release-tagger/compare/v6.0.1...v6.0.2) - (2026-02-17)
+
+## <!-- 17 -->➖ Remove
+
+- Remove use_major_version option from auto-doc step ([8820e6e](https://github.com/tj-actions/release-tagger/commit/8820e6eb047725acdf742a67d6634ed94b338711))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update release-tagger action version in README ([cb5729e](https://github.com/tj-actions/release-tagger/commit/cb5729e48f230e7d90b46d0ae83b4e3a65f077fb))  - (Tonye Jack)
+- Updated README.md ([#191](https://github.com/tj-actions/release-tagger/issues/191))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([0dbc444](https://github.com/tj-actions/release-tagger/commit/0dbc444bc4d2c22267bfe076b47ca6a754fe745b))  - (github-actions[bot])
+- Updated README.md ([#190](https://github.com/tj-actions/release-tagger/issues/190))
+
+* Updated README.md
+
+* Change release-tagger version to a specific commit
+
+Updated release-tagger action version in README.
+
+---------
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Tonye Jack <jtonye@ymail.com> ([3ea3200](https://github.com/tj-actions/release-tagger/commit/3ea3200203e20f2bace8b08a1d389400cf21177e))  - (github-actions[bot])
+
+## <!-- 30 -->📝 Other
+
+- Enable code blocks in auto-doc workflow ([68bc0ee](https://github.com/tj-actions/release-tagger/commit/68bc0eeeea3ce93a162081e8e43015f1413b171b))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v6.0.0 -> v6.0.1 ([#189](https://github.com/tj-actions/release-tagger/issues/189))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([b5d8347](https://github.com/tj-actions/release-tagger/commit/b5d8347f6cf3ba4bef868af11270f6f1ab848699))  - (github-actions[bot])
+
 # [6.0.1](https://github.com/tj-actions/release-tagger/compare/v6.0.0...v6.0.1) - (2026-02-17)
 
 ## <!-- 1 -->🐛 Bug Fixes
