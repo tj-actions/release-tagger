@@ -32,7 +32,7 @@ done
 gh release download "$NEW_TAG" --dir "$RELEASE_ASSETS_DIR" || true
 
 if [[ -f "$INPUTS_RELEASE_NOTES_FILE" ]]; then
-  if gh release view "$MAJOR_VERSION" > /dev/null 2>&1 && "$INPUTS_RETAG_MAJOR" == "true"; then
+  if gh release view "$MAJOR_VERSION" > /dev/null 2>&1 && [[ "$INPUTS_RETAG_MAJOR" == "true" ]]; then
     # Update the release notes
     gh release edit "$MAJOR_VERSION" --notes-file "$INPUTS_RELEASE_NOTES_FILE" --title "$MAJOR_VERSION"
 
